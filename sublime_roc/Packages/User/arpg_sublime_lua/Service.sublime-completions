@@ -1,0 +1,8 @@
+{
+  "scope":"source.lua",
+  "completions":[{
+      "contents":"Socket.registerHandler(${1:servName}, self.${2:callback}, self,${3:returnPbType})",
+      "trigger":"service.Socket.registerHandler     [Socket注册]",
+    }
+    ]
+}

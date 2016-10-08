@@ -1,0 +1,23 @@
+{
+  "scope":"source.lua",
+  "completions":[{
+      "contents":"logDebug(${1:...})",
+      "trigger":"logDebug          [1级别日志]",
+    },
+    {
+      "contents":"logInfo(${1:...})",
+      "trigger":"logInfo           [2级别日志]",
+    },
+    {
+      "contents":"logWarning(${1:...})",
+      "trigger":"logWarning        [3级别日志]",
+    },
+    {
+      "contents":"logError(${1:...})",
+      "trigger":"logError          [4级别日志]",
+    },{
+      "contents":"table.getCount(${1:tab})",
+      "trigger":"table.getCount          [获取table长度]",
+    },
+    ]
+}

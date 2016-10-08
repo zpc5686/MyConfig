@@ -1,0 +1,177 @@
+{
+  "scope":"source.lua",
+  "completions":[
+    {
+      "contents":"local app = App.getInstance()",
+      "trigger":"applocal          [定义一个local app]"
+    },
+
+    {
+      "contents":"App.getInstance():showMoto( ${1:prefabPath}, ${2:parent}, ${3:callback} )",
+      "trigger":"App.showMoto          [显示一个Moto(完整)]"
+    },
+    {
+      "contents":"app:showMoto( ${1:prefabPath}, ${2:parent}, ${3:callback} )",
+      "trigger":"app:showMoto          [显示一个Moto(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():hideMoto(${1:prefabPath})",
+      "trigger":"App.hideMoto          [隐藏一个Moto(完整)]"
+    },
+    {
+      "contents":"app:hideMoto(${1:prefabPath})",
+      "trigger":"app:hideMoto          [隐藏一个Moto(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():createPart(${1:proto}, ${2:transParent}, ${3:number})",
+      "trigger":"App.createPart        [createPart(完整)]"
+    },
+    {
+      "contents":"app:createPart(${1:proto}, ${2:transParent}, ${3:number})",
+      "trigger":"app:createPart        [createPart(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():ShowMsgBox(${1:info}, ${2:sender}, ${3:callback}, ${4:param})",
+      "trigger":"App.ShowMsgBox        [显示一个公共弹出框(完整)]"
+    },
+    {
+      "contents":"app:ShowMsgBox(${1:proto}, ${2:transParent}, ${3:number}, ${4:param})",
+      "trigger":"app:ShowMsgBox        [显示一个公共弹出框(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():LoadSprite(${1:atlasName}, ${2:spriteName})",
+      "trigger":"App.LoadSprite         [加载某图集上的某图片(完整)]"
+    },
+    {
+      "contents":"app:LoadSprite(${1:atlasName}, ${2:spriteName})",
+      "trigger":"app:LoadSprite          [加载某图集上的某图片(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():SetIconByItemId(${1:imgControl}, ${2:ItemId})",
+      "trigger":"App.SetIconByItemId       [根据ItemId为Image加载图片(完整)]"
+    },
+    {
+      "contents":"app:SetIconByItemId(${1:imgControl}, ${2:ItemId})",
+      "trigger":"app:SetIconByItemId       [根据ItemId为Image加载图片(局部)]"
+    },
+    {
+      "contents":"App.getInstance():SetIconByCurrencyId(${1:imgControl}, ${2:CurrencyId})",
+      "trigger":"App.SetIconByCurrencyId       [根据CurrencyId为Image加载图片(完整)]"
+    },
+    {
+      "contents":"app:SetIconByCurrencyId(${1:imgControl}, ${2:CurrencyId})",
+      "trigger":"app:SetIconByCurrencyId       [根据CurrencyId为Image加载图片(局部)]"
+    },
+    {
+      "contents":"App.getInstance():SetIconById(${1:imgControl}, ${2:IconId})",
+      "trigger":"App.SetIconById       [根据IconId为Image加载图片(完整)]"
+    },
+    {
+      "contents":"app:SetIconById(${1:imgControl}, ${2:IconId})",
+      "trigger":"app:SetIconById       [根据IconId为Image加载图片(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():SetFormatTextById(1:text}, ${2:dictId},${3:...})",
+      "trigger":"App.SetFormatTextById       [为Text Formate字符串(完整)]"
+    },
+    {
+      "contents":"app:SetFormatTextById(${1:text}, ${2:dictId},${3:...})",
+      "trigger":"app:SetFormatTextById       [为Text Formate字符串(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():SetTextById(1:text}, ${2:dictId})",
+      "trigger":"App.SetTextById       [为Text设置字符串(完整)]"
+    },
+    {
+      "contents":"app:SetTextById(${1:text}, ${2:dictId})",
+      "trigger":"app:SetTextById       [为Text设置字符串(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():GetDictStringById(${1:dictId})",
+      "trigger":"App.GetDictStringById       [根据dictId获取字符串(完整)]"
+    },
+    {
+      "contents":"app:GetDictStringById(${1:dictId})",
+      "trigger":"app:GetDictStringById       [根据dictId获取字符串(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():GetFormatDictStringById(${1:dictId},${2:...})",
+      "trigger":"App.GetFormatDictStringById       [获取Format字符串(完整)]"
+    },
+    {
+      "contents":"app:GetFormatDictStringById(${1:dictId},${2:...})",
+      "trigger":"app:GetFormatDictStringById       [获取Format字符串(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():SetImageGray(${1:image},${2:bool})",
+      "trigger":"App.SetImageGray       [图片置灰(完整)]"
+    },
+    {
+      "contents":"app:SetImageGray(${1:image},${2:bool})",
+      "trigger":"app:SetImageGray       [图片置灰(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():QueryDataById(${1:tabName},${2:id})",
+      "trigger":"App.QueryDataById       [根据表名和id查询配置表(完整)]"
+    },
+    {
+      "contents":"app:QueryDataById(${1:tabName},${2:id})",
+      "trigger":"app:QueryDataById       [根据表名和id查询配置表(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():QueryAllData(${1:tabName})",
+      "trigger":"App.QueryAllData       [查询配置表(完整)]"
+    },
+    {
+      "contents":"app:QueryAllData(${1:tabName})",
+      "trigger":"app:QueryAllData       [查询配置表(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():QueryAllDataToKV(${1:tabName})",
+      "trigger":"App.QueryAllDataToKV       [查询配置表转kv(完整)]"
+    },
+    {
+      "contents":"app:QueryAllDataToKV(${1:tabName})",
+      "trigger":"app:QueryAllDataToKV       [查询配置表转kv(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():DepositLuaTable(${1:key},${2:table})",
+      "trigger":"App.DepositLuaTable       [把luatable存DataBank(完整)]"
+    },
+    {
+      "contents":"app:DepositLuaTable(${1:key},${2:table})",
+      "trigger":"app:DepositLuaTable       [把luatable存DataBank(局部)]"
+    },
+
+    {
+      "contents":"App.getInstance():WithdrawDict(${1:key})",
+      "trigger":"App.WithdrawDict       [从DataBank取回table(完整)]"
+    },
+    {
+      "contents":"app:WithdrawDict(${1:key})",
+      "trigger":"app:WithdrawDict       [从DataBank取回table(局部)]"
+    },
+    {
+      "contents":"App.getInstance():SetColorById(${1:widget},${2:colorId})",
+      "trigger":"App.SetColorById       [根据颜色Id设置颜色(完整)]"
+    },
+    {
+      "contents":"app:SetColorById(${1:widget},${2:colorId})",
+      "trigger":"app:SetColorById       [根据颜色Id设置颜色(局部)]"
+    },
+    ]
+}

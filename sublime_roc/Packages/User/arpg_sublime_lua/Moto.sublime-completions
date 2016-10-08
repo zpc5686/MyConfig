@@ -1,0 +1,74 @@
+{
+  "scope":"source.lua",
+  "completions":[{
+      "contents":"self:hideMySelf()",
+      "trigger":"self:hideMySelf     [Moto的方法，隐藏自身]",
+    },{
+      "contents":"widgets",
+      "trigger":"widgets",
+    },{
+      "contents":"notification",
+      "trigger":"notification",
+    },{
+      "contents":"local widgets = self:getWidgets()",
+      "trigger":"getwidgets()     [Moto的方法，获取全部控件]",
+    },
+    {
+      "contents":"self:showMoto( ${1:prefabPath}, ${2:parent}, ${3:callback} )",
+      "trigger":"self:showMoto          [Append一个Moto到本Moto]"
+    },
+    {
+      "contents":"self:appendMoto(MotoPath.PAD_TOP_INFO,${1:transParent},function()\nlocal tab = {}\ntab.title = \"${2:title}\"\ntab.currency = {${3:ids...}}\nself:sendNotification(GlobalNotifyName.PAD_TOP_INFO,tab,nil)\nend )",
+      "trigger":"self:appendMoto          [创建顶部公共Moto的模版]"
+    },
+    {
+      "contents":"self:appendPadTop( ${1:transTop}, ${2:customParam})",
+      "trigger":"self:appendPadTop          [Append PadTop到本Moto]"
+    },
+    {
+      "contents":"self:showMotoByIdAndStackMe( ${1:motoId}, ${2:motoBean}, ${3:callback})",
+      "trigger":"self:showMotoByIdAndStackMe          [打开某个新的界面，并把自己入栈，然后关闭自己]"
+    },
+    {
+      "contents":"self:showMotoByIdAndHideMe( ${1:motoId}, ${2:motoBean}, ${3:callback})",
+      "trigger":"self:showMotoByIdAndHideMe          [打开某个新的界面，然后关闭自己]"
+    },
+    {
+      "contents":"self:hideMeAndStackBack()",
+      "trigger":"self:hideMeAndStackBack          [打开栈中的上级界面，然后关闭自己]"
+    },
+    {
+      "contents":"self:hideMeAndPushStack()",
+      "trigger":"self:hideMeAndPushStack          [关闭自己，并且把自己入栈]"
+    },
+    {
+      "contents":"self:stackBack(${1:callback})",
+      "trigger":"self:stackBack          [仅打开栈中的上级界面]"
+    },
+    {
+      "contents":"self:startTimmer(${1:timmerName},${2:delta},${3:callback})",
+      "trigger":"self:startTimmer          [开始一个定时器]"
+    },
+    {
+      "contents":"self:stopTimmer(${1:timmerName})",
+      "trigger":"self:stopTimmer          [关闭定时器]"
+    },
+    {
+      "contents":"self:addCDLabel(${1:label},${2:name},${3:cd},${4:delta},${5:onComplete},${6:formatter})",
+      "trigger":"self:addCDLabel          [开始一个定时器方法]"
+    },
+    {
+      "contents":"self:removeCDLabel(${1:label})",
+      "trigger":"self:removeCDLabel          [结束一个定时器遍历方法]"
+    },
+    {
+      "contents":"self:AddButtonOnClick(${1:control}, ${2:lt}, ${3:param}, ${4:callback})",
+      "trigger":"self:AddButtonOnClick          [self:AddButtonOnClick]"
+    },
+    {
+      "contents":"self:AddToggleOnValueChanged(${1:control}, ${2:lt}, ${3:param}, ${4:callback})",
+      "trigger":"self:AddToggleOnValueChanged          [self:AddToggleOnValueChanged]"
+    },
+
+    ]
+}

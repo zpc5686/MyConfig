@@ -1,0 +1,13 @@
+{
+  "scope":"source.lua",
+  "completions":[{
+      "contents":"self:sendNotification(${1:XXXService.NAME}, ${2:data}, ${3:XXXService.XXX})",
+      "trigger":"self:sendNotification     [MVC方法，发送消息]",
+    },
+    {
+    	
+      "contents":"self:registNotifyHandler(${1:XXXService.NAME}, self.${2:callback})",
+      "trigger":"self:registNotifyHandler     [MVC方法，注册消息]",
+    },
+    ]
+}

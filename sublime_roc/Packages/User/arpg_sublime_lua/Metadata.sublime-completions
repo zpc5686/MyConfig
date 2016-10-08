@@ -1,0 +1,1973 @@
+{
+  "scope": "source.lua",
+  "completions": [
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ACTOR_BREAK_THROUGH)",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ACTOR_BREAK_THROUGH)",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ACTOR_BREAK_THROUGH,${1:Id})",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ACTOR_BREAK_THROUGH)",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ACTOR_BREAK_THROUGH)",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ACTOR_BREAK_THROUGH,${1:Id})",
+      "trigger": "MetaAlias.ACTOR_BREAK_THROUGH     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ACTOR_LEVEL)",
+      "trigger": "MetaAlias.ACTOR_LEVEL    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ACTOR_LEVEL)",
+      "trigger": "MetaAlias.ACTOR_LEVEL     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ACTOR_LEVEL,${1:Id})",
+      "trigger": "MetaAlias.ACTOR_LEVEL     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ACTOR_LEVEL)",
+      "trigger": "MetaAlias.ACTOR_LEVEL     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ACTOR_LEVEL)",
+      "trigger": "MetaAlias.ACTOR_LEVEL     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ACTOR_LEVEL,${1:Id})",
+      "trigger": "MetaAlias.ACTOR_LEVEL     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ACTORS)",
+      "trigger": "MetaAlias.ACTORS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ACTORS)",
+      "trigger": "MetaAlias.ACTORS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ACTORS,${1:Id})",
+      "trigger": "MetaAlias.ACTORS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ACTORS)",
+      "trigger": "MetaAlias.ACTORS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ACTORS)",
+      "trigger": "MetaAlias.ACTORS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ACTORS,${1:Id})",
+      "trigger": "MetaAlias.ACTORS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.AFFIX)",
+      "trigger": "MetaAlias.AFFIX    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.AFFIX)",
+      "trigger": "MetaAlias.AFFIX     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.AFFIX,${1:Id})",
+      "trigger": "MetaAlias.AFFIX     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.AFFIX)",
+      "trigger": "MetaAlias.AFFIX     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.AFFIX)",
+      "trigger": "MetaAlias.AFFIX     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.AFFIX,${1:Id})",
+      "trigger": "MetaAlias.AFFIX     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.APPRECIATION)",
+      "trigger": "MetaAlias.APPRECIATION    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.APPRECIATION)",
+      "trigger": "MetaAlias.APPRECIATION     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.APPRECIATION,${1:Id})",
+      "trigger": "MetaAlias.APPRECIATION     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.APPRECIATION)",
+      "trigger": "MetaAlias.APPRECIATION     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.APPRECIATION)",
+      "trigger": "MetaAlias.APPRECIATION     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.APPRECIATION,${1:Id})",
+      "trigger": "MetaAlias.APPRECIATION     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.APPRECIATION_ITEM)",
+      "trigger": "MetaAlias.APPRECIATION_ITEM    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.APPRECIATION_ITEM)",
+      "trigger": "MetaAlias.APPRECIATION_ITEM     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.APPRECIATION_ITEM,${1:Id})",
+      "trigger": "MetaAlias.APPRECIATION_ITEM     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.APPRECIATION_ITEM)",
+      "trigger": "MetaAlias.APPRECIATION_ITEM     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.APPRECIATION_ITEM)",
+      "trigger": "MetaAlias.APPRECIATION_ITEM     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.APPRECIATION_ITEM,${1:Id})",
+      "trigger": "MetaAlias.APPRECIATION_ITEM     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ARENA_RANK_REWARD)",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ARENA_RANK_REWARD)",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ARENA_RANK_REWARD,${1:Id})",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ARENA_RANK_REWARD)",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ARENA_RANK_REWARD)",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ARENA_RANK_REWARD,${1:Id})",
+      "trigger": "MetaAlias.ARENA_RANK_REWARD     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.AVATAR)",
+      "trigger": "MetaAlias.AVATAR    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.AVATAR)",
+      "trigger": "MetaAlias.AVATAR     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.AVATAR,${1:Id})",
+      "trigger": "MetaAlias.AVATAR     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.AVATAR)",
+      "trigger": "MetaAlias.AVATAR     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.AVATAR)",
+      "trigger": "MetaAlias.AVATAR     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.AVATAR,${1:Id})",
+      "trigger": "MetaAlias.AVATAR     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.AWARD_CENTER)",
+      "trigger": "MetaAlias.AWARD_CENTER    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.AWARD_CENTER)",
+      "trigger": "MetaAlias.AWARD_CENTER     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.AWARD_CENTER,${1:Id})",
+      "trigger": "MetaAlias.AWARD_CENTER     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.AWARD_CENTER)",
+      "trigger": "MetaAlias.AWARD_CENTER     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.AWARD_CENTER)",
+      "trigger": "MetaAlias.AWARD_CENTER     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.AWARD_CENTER,${1:Id})",
+      "trigger": "MetaAlias.AWARD_CENTER     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.BAG_TYPE)",
+      "trigger": "MetaAlias.BAG_TYPE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.BAG_TYPE)",
+      "trigger": "MetaAlias.BAG_TYPE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.BAG_TYPE,${1:Id})",
+      "trigger": "MetaAlias.BAG_TYPE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.BAG_TYPE)",
+      "trigger": "MetaAlias.BAG_TYPE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.BAG_TYPE)",
+      "trigger": "MetaAlias.BAG_TYPE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.BAG_TYPE,${1:Id})",
+      "trigger": "MetaAlias.BAG_TYPE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.BUFFS)",
+      "trigger": "MetaAlias.BUFFS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.BUFFS)",
+      "trigger": "MetaAlias.BUFFS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.BUFFS,${1:Id})",
+      "trigger": "MetaAlias.BUFFS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.BUFFS)",
+      "trigger": "MetaAlias.BUFFS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.BUFFS)",
+      "trigger": "MetaAlias.BUFFS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.BUFFS,${1:Id})",
+      "trigger": "MetaAlias.BUFFS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.CHAPTER)",
+      "trigger": "MetaAlias.CHAPTER    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.CHAPTER)",
+      "trigger": "MetaAlias.CHAPTER     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.CHAPTER,${1:Id})",
+      "trigger": "MetaAlias.CHAPTER     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.CHAPTER)",
+      "trigger": "MetaAlias.CHAPTER     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.CHAPTER)",
+      "trigger": "MetaAlias.CHAPTER     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.CHAPTER,${1:Id})",
+      "trigger": "MetaAlias.CHAPTER     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.COLOR)",
+      "trigger": "MetaAlias.COLOR    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.COLOR)",
+      "trigger": "MetaAlias.COLOR     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.COLOR,${1:Id})",
+      "trigger": "MetaAlias.COLOR     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.COLOR)",
+      "trigger": "MetaAlias.COLOR     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.COLOR)",
+      "trigger": "MetaAlias.COLOR     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.COLOR,${1:Id})",
+      "trigger": "MetaAlias.COLOR     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.COMBAT_ATTR)",
+      "trigger": "MetaAlias.COMBAT_ATTR    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.COMBAT_ATTR)",
+      "trigger": "MetaAlias.COMBAT_ATTR     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.COMBAT_ATTR,${1:Id})",
+      "trigger": "MetaAlias.COMBAT_ATTR     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.COMBAT_ATTR)",
+      "trigger": "MetaAlias.COMBAT_ATTR     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.COMBAT_ATTR)",
+      "trigger": "MetaAlias.COMBAT_ATTR     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.COMBAT_ATTR,${1:Id})",
+      "trigger": "MetaAlias.COMBAT_ATTR     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.COMBAT_TEST)",
+      "trigger": "MetaAlias.COMBAT_TEST    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.COMBAT_TEST)",
+      "trigger": "MetaAlias.COMBAT_TEST     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.COMBAT_TEST,${1:Id})",
+      "trigger": "MetaAlias.COMBAT_TEST     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.COMBAT_TEST)",
+      "trigger": "MetaAlias.COMBAT_TEST     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.COMBAT_TEST)",
+      "trigger": "MetaAlias.COMBAT_TEST     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.COMBAT_TEST,${1:Id})",
+      "trigger": "MetaAlias.COMBAT_TEST     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.COMBINATION)",
+      "trigger": "MetaAlias.COMBINATION    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.COMBINATION)",
+      "trigger": "MetaAlias.COMBINATION     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.COMBINATION,${1:Id})",
+      "trigger": "MetaAlias.COMBINATION     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.COMBINATION)",
+      "trigger": "MetaAlias.COMBINATION     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.COMBINATION)",
+      "trigger": "MetaAlias.COMBINATION     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.COMBINATION,${1:Id})",
+      "trigger": "MetaAlias.COMBINATION     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.CONDITION)",
+      "trigger": "MetaAlias.CONDITION    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.CONDITION)",
+      "trigger": "MetaAlias.CONDITION     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.CONDITION,${1:Id})",
+      "trigger": "MetaAlias.CONDITION     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.CONDITION)",
+      "trigger": "MetaAlias.CONDITION     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.CONDITION)",
+      "trigger": "MetaAlias.CONDITION     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.CONDITION,${1:Id})",
+      "trigger": "MetaAlias.CONDITION     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.CURRENCY)",
+      "trigger": "MetaAlias.CURRENCY    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.CURRENCY)",
+      "trigger": "MetaAlias.CURRENCY     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.CURRENCY,${1:Id})",
+      "trigger": "MetaAlias.CURRENCY     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.CURRENCY)",
+      "trigger": "MetaAlias.CURRENCY     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.CURRENCY)",
+      "trigger": "MetaAlias.CURRENCY     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.CURRENCY,${1:Id})",
+      "trigger": "MetaAlias.CURRENCY     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DAILY_COPY)",
+      "trigger": "MetaAlias.DAILY_COPY    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DAILY_COPY)",
+      "trigger": "MetaAlias.DAILY_COPY     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DAILY_COPY,${1:Id})",
+      "trigger": "MetaAlias.DAILY_COPY     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DAILY_COPY)",
+      "trigger": "MetaAlias.DAILY_COPY     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DAILY_COPY)",
+      "trigger": "MetaAlias.DAILY_COPY     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DAILY_COPY,${1:Id})",
+      "trigger": "MetaAlias.DAILY_COPY     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DAMAGES)",
+      "trigger": "MetaAlias.DAMAGES    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DAMAGES)",
+      "trigger": "MetaAlias.DAMAGES     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DAMAGES,${1:Id})",
+      "trigger": "MetaAlias.DAMAGES     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DAMAGES)",
+      "trigger": "MetaAlias.DAMAGES     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DAMAGES)",
+      "trigger": "MetaAlias.DAMAGES     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DAMAGES,${1:Id})",
+      "trigger": "MetaAlias.DAMAGES     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DESTINY)",
+      "trigger": "MetaAlias.DESTINY    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DESTINY)",
+      "trigger": "MetaAlias.DESTINY     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DESTINY,${1:Id})",
+      "trigger": "MetaAlias.DESTINY     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DESTINY)",
+      "trigger": "MetaAlias.DESTINY     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DESTINY)",
+      "trigger": "MetaAlias.DESTINY     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DESTINY,${1:Id})",
+      "trigger": "MetaAlias.DESTINY     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DICTIONARY_ZH)",
+      "trigger": "MetaAlias.DICTIONARY_ZH    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DICTIONARY_ZH)",
+      "trigger": "MetaAlias.DICTIONARY_ZH     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DICTIONARY_ZH,${1:Id})",
+      "trigger": "MetaAlias.DICTIONARY_ZH     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DICTIONARY_ZH)",
+      "trigger": "MetaAlias.DICTIONARY_ZH     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DICTIONARY_ZH)",
+      "trigger": "MetaAlias.DICTIONARY_ZH     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DICTIONARY_ZH,${1:Id})",
+      "trigger": "MetaAlias.DICTIONARY_ZH     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DRAW)",
+      "trigger": "MetaAlias.DRAW    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DRAW)",
+      "trigger": "MetaAlias.DRAW     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DRAW,${1:Id})",
+      "trigger": "MetaAlias.DRAW     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DRAW)",
+      "trigger": "MetaAlias.DRAW     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DRAW)",
+      "trigger": "MetaAlias.DRAW     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DRAW,${1:Id})",
+      "trigger": "MetaAlias.DRAW     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DRAW_PACK)",
+      "trigger": "MetaAlias.DRAW_PACK    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DRAW_PACK)",
+      "trigger": "MetaAlias.DRAW_PACK     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DRAW_PACK,${1:Id})",
+      "trigger": "MetaAlias.DRAW_PACK     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DRAW_PACK)",
+      "trigger": "MetaAlias.DRAW_PACK     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DRAW_PACK)",
+      "trigger": "MetaAlias.DRAW_PACK     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DRAW_PACK,${1:Id})",
+      "trigger": "MetaAlias.DRAW_PACK     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DROP)",
+      "trigger": "MetaAlias.DROP    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DROP)",
+      "trigger": "MetaAlias.DROP     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DROP,${1:Id})",
+      "trigger": "MetaAlias.DROP     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DROP)",
+      "trigger": "MetaAlias.DROP     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DROP)",
+      "trigger": "MetaAlias.DROP     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DROP,${1:Id})",
+      "trigger": "MetaAlias.DROP     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.DROP_INDEX)",
+      "trigger": "MetaAlias.DROP_INDEX    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.DROP_INDEX)",
+      "trigger": "MetaAlias.DROP_INDEX     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.DROP_INDEX,${1:Id})",
+      "trigger": "MetaAlias.DROP_INDEX     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.DROP_INDEX)",
+      "trigger": "MetaAlias.DROP_INDEX     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.DROP_INDEX)",
+      "trigger": "MetaAlias.DROP_INDEX     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.DROP_INDEX,${1:Id})",
+      "trigger": "MetaAlias.DROP_INDEX     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.EFFECTS)",
+      "trigger": "MetaAlias.EFFECTS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.EFFECTS)",
+      "trigger": "MetaAlias.EFFECTS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.EFFECTS,${1:Id})",
+      "trigger": "MetaAlias.EFFECTS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.EFFECTS)",
+      "trigger": "MetaAlias.EFFECTS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.EFFECTS)",
+      "trigger": "MetaAlias.EFFECTS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.EFFECTS,${1:Id})",
+      "trigger": "MetaAlias.EFFECTS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.EQUIPMENT)",
+      "trigger": "MetaAlias.EQUIPMENT    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.EQUIPMENT)",
+      "trigger": "MetaAlias.EQUIPMENT     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.EQUIPMENT,${1:Id})",
+      "trigger": "MetaAlias.EQUIPMENT     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.EQUIPMENT)",
+      "trigger": "MetaAlias.EQUIPMENT     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.EQUIPMENT)",
+      "trigger": "MetaAlias.EQUIPMENT     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.EQUIPMENT,${1:Id})",
+      "trigger": "MetaAlias.EQUIPMENT     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.EXP)",
+      "trigger": "MetaAlias.EXP    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.EXP)",
+      "trigger": "MetaAlias.EXP     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.EXP,${1:Id})",
+      "trigger": "MetaAlias.EXP     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.EXP)",
+      "trigger": "MetaAlias.EXP     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.EXP)",
+      "trigger": "MetaAlias.EXP     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.EXP,${1:Id})",
+      "trigger": "MetaAlias.EXP     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.EXPLOIT_REWARD)",
+      "trigger": "MetaAlias.EXPLOIT_REWARD    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.EXPLOIT_REWARD)",
+      "trigger": "MetaAlias.EXPLOIT_REWARD     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.EXPLOIT_REWARD,${1:Id})",
+      "trigger": "MetaAlias.EXPLOIT_REWARD     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.EXPLOIT_REWARD)",
+      "trigger": "MetaAlias.EXPLOIT_REWARD     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.EXPLOIT_REWARD)",
+      "trigger": "MetaAlias.EXPLOIT_REWARD     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.EXPLOIT_REWARD,${1:Id})",
+      "trigger": "MetaAlias.EXPLOIT_REWARD     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.FINAL_CHALLENGE)",
+      "trigger": "MetaAlias.FINAL_CHALLENGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.FINAL_CHALLENGE)",
+      "trigger": "MetaAlias.FINAL_CHALLENGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.FINAL_CHALLENGE,${1:Id})",
+      "trigger": "MetaAlias.FINAL_CHALLENGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.FINAL_CHALLENGE)",
+      "trigger": "MetaAlias.FINAL_CHALLENGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.FINAL_CHALLENGE)",
+      "trigger": "MetaAlias.FINAL_CHALLENGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.FINAL_CHALLENGE,${1:Id})",
+      "trigger": "MetaAlias.FINAL_CHALLENGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GET_STAGE)",
+      "trigger": "MetaAlias.GET_STAGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GET_STAGE)",
+      "trigger": "MetaAlias.GET_STAGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GET_STAGE,${1:Id})",
+      "trigger": "MetaAlias.GET_STAGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GET_STAGE)",
+      "trigger": "MetaAlias.GET_STAGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GET_STAGE)",
+      "trigger": "MetaAlias.GET_STAGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GET_STAGE,${1:Id})",
+      "trigger": "MetaAlias.GET_STAGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_BADGE)",
+      "trigger": "MetaAlias.GUILD_BADGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_BADGE)",
+      "trigger": "MetaAlias.GUILD_BADGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_BADGE,${1:Id})",
+      "trigger": "MetaAlias.GUILD_BADGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_BADGE)",
+      "trigger": "MetaAlias.GUILD_BADGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_BADGE)",
+      "trigger": "MetaAlias.GUILD_BADGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_BADGE,${1:Id})",
+      "trigger": "MetaAlias.GUILD_BADGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_BUILDING)",
+      "trigger": "MetaAlias.GUILD_BUILDING    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_BUILDING)",
+      "trigger": "MetaAlias.GUILD_BUILDING     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_BUILDING,${1:Id})",
+      "trigger": "MetaAlias.GUILD_BUILDING     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_BUILDING)",
+      "trigger": "MetaAlias.GUILD_BUILDING     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_BUILDING)",
+      "trigger": "MetaAlias.GUILD_BUILDING     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_BUILDING,${1:Id})",
+      "trigger": "MetaAlias.GUILD_BUILDING     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_CON_REWARD)",
+      "trigger": "MetaAlias.GUILD_CON_REWARD    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_CON_REWARD)",
+      "trigger": "MetaAlias.GUILD_CON_REWARD     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_CON_REWARD,${1:Id})",
+      "trigger": "MetaAlias.GUILD_CON_REWARD     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_CON_REWARD)",
+      "trigger": "MetaAlias.GUILD_CON_REWARD     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_CON_REWARD)",
+      "trigger": "MetaAlias.GUILD_CON_REWARD     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_CON_REWARD,${1:Id})",
+      "trigger": "MetaAlias.GUILD_CON_REWARD     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_CONTRIBUTE)",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_CONTRIBUTE)",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_CONTRIBUTE,${1:Id})",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_CONTRIBUTE)",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_CONTRIBUTE)",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_CONTRIBUTE,${1:Id})",
+      "trigger": "MetaAlias.GUILD_CONTRIBUTE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_FRAME)",
+      "trigger": "MetaAlias.GUILD_FRAME    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_FRAME)",
+      "trigger": "MetaAlias.GUILD_FRAME     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_FRAME,${1:Id})",
+      "trigger": "MetaAlias.GUILD_FRAME     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_FRAME)",
+      "trigger": "MetaAlias.GUILD_FRAME     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_FRAME)",
+      "trigger": "MetaAlias.GUILD_FRAME     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_FRAME,${1:Id})",
+      "trigger": "MetaAlias.GUILD_FRAME     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_LV)",
+      "trigger": "MetaAlias.GUILD_LV    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_LV)",
+      "trigger": "MetaAlias.GUILD_LV     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_LV,${1:Id})",
+      "trigger": "MetaAlias.GUILD_LV     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_LV)",
+      "trigger": "MetaAlias.GUILD_LV     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_LV)",
+      "trigger": "MetaAlias.GUILD_LV     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_LV,${1:Id})",
+      "trigger": "MetaAlias.GUILD_LV     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_PARAM)",
+      "trigger": "MetaAlias.GUILD_PARAM    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_PARAM)",
+      "trigger": "MetaAlias.GUILD_PARAM     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_PARAM,${1:Id})",
+      "trigger": "MetaAlias.GUILD_PARAM     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_PARAM)",
+      "trigger": "MetaAlias.GUILD_PARAM     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_PARAM)",
+      "trigger": "MetaAlias.GUILD_PARAM     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_PARAM,${1:Id})",
+      "trigger": "MetaAlias.GUILD_PARAM     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_POST)",
+      "trigger": "MetaAlias.GUILD_POST    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_POST)",
+      "trigger": "MetaAlias.GUILD_POST     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_POST,${1:Id})",
+      "trigger": "MetaAlias.GUILD_POST     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_POST)",
+      "trigger": "MetaAlias.GUILD_POST     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_POST)",
+      "trigger": "MetaAlias.GUILD_POST     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_POST,${1:Id})",
+      "trigger": "MetaAlias.GUILD_POST     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.GUILD_SKILL)",
+      "trigger": "MetaAlias.GUILD_SKILL    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.GUILD_SKILL)",
+      "trigger": "MetaAlias.GUILD_SKILL     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.GUILD_SKILL,${1:Id})",
+      "trigger": "MetaAlias.GUILD_SKILL     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.GUILD_SKILL)",
+      "trigger": "MetaAlias.GUILD_SKILL     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.GUILD_SKILL)",
+      "trigger": "MetaAlias.GUILD_SKILL     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.GUILD_SKILL,${1:Id})",
+      "trigger": "MetaAlias.GUILD_SKILL     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ICON)",
+      "trigger": "MetaAlias.ICON    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ICON)",
+      "trigger": "MetaAlias.ICON     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ICON,${1:Id})",
+      "trigger": "MetaAlias.ICON     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ICON)",
+      "trigger": "MetaAlias.ICON     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ICON)",
+      "trigger": "MetaAlias.ICON     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ICON,${1:Id})",
+      "trigger": "MetaAlias.ICON     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ITEM)",
+      "trigger": "MetaAlias.ITEM    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ITEM)",
+      "trigger": "MetaAlias.ITEM     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ITEM,${1:Id})",
+      "trigger": "MetaAlias.ITEM     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ITEM)",
+      "trigger": "MetaAlias.ITEM     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ITEM)",
+      "trigger": "MetaAlias.ITEM     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ITEM,${1:Id})",
+      "trigger": "MetaAlias.ITEM     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.LIMITED_ATTR)",
+      "trigger": "MetaAlias.LIMITED_ATTR    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.LIMITED_ATTR)",
+      "trigger": "MetaAlias.LIMITED_ATTR     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.LIMITED_ATTR,${1:Id})",
+      "trigger": "MetaAlias.LIMITED_ATTR     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.LIMITED_ATTR)",
+      "trigger": "MetaAlias.LIMITED_ATTR     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.LIMITED_ATTR)",
+      "trigger": "MetaAlias.LIMITED_ATTR     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.LIMITED_ATTR,${1:Id})",
+      "trigger": "MetaAlias.LIMITED_ATTR     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MAIL)",
+      "trigger": "MetaAlias.MAIL    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MAIL)",
+      "trigger": "MetaAlias.MAIL     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MAIL,${1:Id})",
+      "trigger": "MetaAlias.MAIL     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MAIL)",
+      "trigger": "MetaAlias.MAIL     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MAIL)",
+      "trigger": "MetaAlias.MAIL     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MAIL,${1:Id})",
+      "trigger": "MetaAlias.MAIL     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MAIN_PANEL_BUTTON)",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MAIN_PANEL_BUTTON)",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MAIN_PANEL_BUTTON,${1:Id})",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MAIN_PANEL_BUTTON)",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MAIN_PANEL_BUTTON)",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MAIN_PANEL_BUTTON,${1:Id})",
+      "trigger": "MetaAlias.MAIN_PANEL_BUTTON     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MASTER)",
+      "trigger": "MetaAlias.MASTER    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MASTER)",
+      "trigger": "MetaAlias.MASTER     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MASTER,${1:Id})",
+      "trigger": "MetaAlias.MASTER     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MASTER)",
+      "trigger": "MetaAlias.MASTER     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MASTER)",
+      "trigger": "MetaAlias.MASTER     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MASTER,${1:Id})",
+      "trigger": "MetaAlias.MASTER     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MESSAGE_BOX)",
+      "trigger": "MetaAlias.MESSAGE_BOX    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MESSAGE_BOX)",
+      "trigger": "MetaAlias.MESSAGE_BOX     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MESSAGE_BOX,${1:Id})",
+      "trigger": "MetaAlias.MESSAGE_BOX     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MESSAGE_BOX)",
+      "trigger": "MetaAlias.MESSAGE_BOX     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MESSAGE_BOX)",
+      "trigger": "MetaAlias.MESSAGE_BOX     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MESSAGE_BOX,${1:Id})",
+      "trigger": "MetaAlias.MESSAGE_BOX     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MONSTERS)",
+      "trigger": "MetaAlias.MONSTERS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MONSTERS)",
+      "trigger": "MetaAlias.MONSTERS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MONSTERS,${1:Id})",
+      "trigger": "MetaAlias.MONSTERS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MONSTERS)",
+      "trigger": "MetaAlias.MONSTERS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MONSTERS)",
+      "trigger": "MetaAlias.MONSTERS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MONSTERS,${1:Id})",
+      "trigger": "MetaAlias.MONSTERS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.MOTO_CONFIG)",
+      "trigger": "MetaAlias.MOTO_CONFIG    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.MOTO_CONFIG)",
+      "trigger": "MetaAlias.MOTO_CONFIG     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.MOTO_CONFIG,${1:Id})",
+      "trigger": "MetaAlias.MOTO_CONFIG     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.MOTO_CONFIG)",
+      "trigger": "MetaAlias.MOTO_CONFIG     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.MOTO_CONFIG)",
+      "trigger": "MetaAlias.MOTO_CONFIG     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.MOTO_CONFIG,${1:Id})",
+      "trigger": "MetaAlias.MOTO_CONFIG     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PASS)",
+      "trigger": "MetaAlias.PASS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PASS)",
+      "trigger": "MetaAlias.PASS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PASS,${1:Id})",
+      "trigger": "MetaAlias.PASS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PASS)",
+      "trigger": "MetaAlias.PASS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PASS)",
+      "trigger": "MetaAlias.PASS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PASS,${1:Id})",
+      "trigger": "MetaAlias.PASS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PASS_CACHE)",
+      "trigger": "MetaAlias.PASS_CACHE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PASS_CACHE)",
+      "trigger": "MetaAlias.PASS_CACHE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PASS_CACHE,${1:Id})",
+      "trigger": "MetaAlias.PASS_CACHE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PASS_CACHE)",
+      "trigger": "MetaAlias.PASS_CACHE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PASS_CACHE)",
+      "trigger": "MetaAlias.PASS_CACHE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PASS_CACHE,${1:Id})",
+      "trigger": "MetaAlias.PASS_CACHE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PASS_CHAPTER)",
+      "trigger": "MetaAlias.PASS_CHAPTER    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PASS_CHAPTER)",
+      "trigger": "MetaAlias.PASS_CHAPTER     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PASS_CHAPTER,${1:Id})",
+      "trigger": "MetaAlias.PASS_CHAPTER     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PASS_CHAPTER)",
+      "trigger": "MetaAlias.PASS_CHAPTER     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PASS_CHAPTER)",
+      "trigger": "MetaAlias.PASS_CHAPTER     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PASS_CHAPTER,${1:Id})",
+      "trigger": "MetaAlias.PASS_CHAPTER     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PASS_ELITE_STAGE)",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PASS_ELITE_STAGE)",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PASS_ELITE_STAGE,${1:Id})",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PASS_ELITE_STAGE)",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PASS_ELITE_STAGE)",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PASS_ELITE_STAGE,${1:Id})",
+      "trigger": "MetaAlias.PASS_ELITE_STAGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PASS_STAGE)",
+      "trigger": "MetaAlias.PASS_STAGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PASS_STAGE)",
+      "trigger": "MetaAlias.PASS_STAGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PASS_STAGE,${1:Id})",
+      "trigger": "MetaAlias.PASS_STAGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PASS_STAGE)",
+      "trigger": "MetaAlias.PASS_STAGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PASS_STAGE)",
+      "trigger": "MetaAlias.PASS_STAGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PASS_STAGE,${1:Id})",
+      "trigger": "MetaAlias.PASS_STAGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.PERIOD)",
+      "trigger": "MetaAlias.PERIOD    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.PERIOD)",
+      "trigger": "MetaAlias.PERIOD     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.PERIOD,${1:Id})",
+      "trigger": "MetaAlias.PERIOD     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.PERIOD)",
+      "trigger": "MetaAlias.PERIOD     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.PERIOD)",
+      "trigger": "MetaAlias.PERIOD     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.PERIOD,${1:Id})",
+      "trigger": "MetaAlias.PERIOD     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.POSITION_STAGE)",
+      "trigger": "MetaAlias.POSITION_STAGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.POSITION_STAGE)",
+      "trigger": "MetaAlias.POSITION_STAGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.POSITION_STAGE,${1:Id})",
+      "trigger": "MetaAlias.POSITION_STAGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.POSITION_STAGE)",
+      "trigger": "MetaAlias.POSITION_STAGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.POSITION_STAGE)",
+      "trigger": "MetaAlias.POSITION_STAGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.POSITION_STAGE,${1:Id})",
+      "trigger": "MetaAlias.POSITION_STAGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.QUALITY)",
+      "trigger": "MetaAlias.QUALITY    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.QUALITY)",
+      "trigger": "MetaAlias.QUALITY     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.QUALITY,${1:Id})",
+      "trigger": "MetaAlias.QUALITY     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.QUALITY)",
+      "trigger": "MetaAlias.QUALITY     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.QUALITY)",
+      "trigger": "MetaAlias.QUALITY     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.QUALITY,${1:Id})",
+      "trigger": "MetaAlias.QUALITY     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.REBEL_ARMY)",
+      "trigger": "MetaAlias.REBEL_ARMY    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.REBEL_ARMY)",
+      "trigger": "MetaAlias.REBEL_ARMY     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.REBEL_ARMY,${1:Id})",
+      "trigger": "MetaAlias.REBEL_ARMY     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.REBEL_ARMY)",
+      "trigger": "MetaAlias.REBEL_ARMY     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.REBEL_ARMY)",
+      "trigger": "MetaAlias.REBEL_ARMY     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.REBEL_ARMY,${1:Id})",
+      "trigger": "MetaAlias.REBEL_ARMY     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.REFINE)",
+      "trigger": "MetaAlias.REFINE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.REFINE)",
+      "trigger": "MetaAlias.REFINE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.REFINE,${1:Id})",
+      "trigger": "MetaAlias.REFINE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.REFINE)",
+      "trigger": "MetaAlias.REFINE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.REFINE)",
+      "trigger": "MetaAlias.REFINE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.REFINE,${1:Id})",
+      "trigger": "MetaAlias.REFINE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.REFRESH)",
+      "trigger": "MetaAlias.REFRESH    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.REFRESH)",
+      "trigger": "MetaAlias.REFRESH     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.REFRESH,${1:Id})",
+      "trigger": "MetaAlias.REFRESH     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.REFRESH)",
+      "trigger": "MetaAlias.REFRESH     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.REFRESH)",
+      "trigger": "MetaAlias.REFRESH     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.REFRESH,${1:Id})",
+      "trigger": "MetaAlias.REFRESH     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.REWARD)",
+      "trigger": "MetaAlias.REWARD    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.REWARD)",
+      "trigger": "MetaAlias.REWARD     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.REWARD,${1:Id})",
+      "trigger": "MetaAlias.REWARD     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.REWARD)",
+      "trigger": "MetaAlias.REWARD     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.REWARD)",
+      "trigger": "MetaAlias.REWARD     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.REWARD,${1:Id})",
+      "trigger": "MetaAlias.REWARD     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ROB_POSITION)",
+      "trigger": "MetaAlias.ROB_POSITION    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ROB_POSITION)",
+      "trigger": "MetaAlias.ROB_POSITION     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ROB_POSITION,${1:Id})",
+      "trigger": "MetaAlias.ROB_POSITION     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ROB_POSITION)",
+      "trigger": "MetaAlias.ROB_POSITION     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ROB_POSITION)",
+      "trigger": "MetaAlias.ROB_POSITION     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ROB_POSITION,${1:Id})",
+      "trigger": "MetaAlias.ROB_POSITION     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.ROBOT)",
+      "trigger": "MetaAlias.ROBOT    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.ROBOT)",
+      "trigger": "MetaAlias.ROBOT     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.ROBOT,${1:Id})",
+      "trigger": "MetaAlias.ROBOT     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.ROBOT)",
+      "trigger": "MetaAlias.ROBOT     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.ROBOT)",
+      "trigger": "MetaAlias.ROBOT     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.ROBOT,${1:Id})",
+      "trigger": "MetaAlias.ROBOT     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SCENES)",
+      "trigger": "MetaAlias.SCENES    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SCENES)",
+      "trigger": "MetaAlias.SCENES     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SCENES,${1:Id})",
+      "trigger": "MetaAlias.SCENES     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SCENES)",
+      "trigger": "MetaAlias.SCENES     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SCENES)",
+      "trigger": "MetaAlias.SCENES     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SCENES,${1:Id})",
+      "trigger": "MetaAlias.SCENES     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SET)",
+      "trigger": "MetaAlias.SET    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SET)",
+      "trigger": "MetaAlias.SET     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SET,${1:Id})",
+      "trigger": "MetaAlias.SET     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SET)",
+      "trigger": "MetaAlias.SET     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SET)",
+      "trigger": "MetaAlias.SET     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SET,${1:Id})",
+      "trigger": "MetaAlias.SET     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SFXS)",
+      "trigger": "MetaAlias.SFXS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SFXS)",
+      "trigger": "MetaAlias.SFXS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SFXS,${1:Id})",
+      "trigger": "MetaAlias.SFXS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SFXS)",
+      "trigger": "MetaAlias.SFXS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SFXS)",
+      "trigger": "MetaAlias.SFXS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SFXS,${1:Id})",
+      "trigger": "MetaAlias.SFXS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SHOP)",
+      "trigger": "MetaAlias.SHOP    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SHOP)",
+      "trigger": "MetaAlias.SHOP     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SHOP,${1:Id})",
+      "trigger": "MetaAlias.SHOP     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SHOP)",
+      "trigger": "MetaAlias.SHOP     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SHOP)",
+      "trigger": "MetaAlias.SHOP     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SHOP,${1:Id})",
+      "trigger": "MetaAlias.SHOP     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SHOP_GOODS)",
+      "trigger": "MetaAlias.SHOP_GOODS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SHOP_GOODS)",
+      "trigger": "MetaAlias.SHOP_GOODS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SHOP_GOODS,${1:Id})",
+      "trigger": "MetaAlias.SHOP_GOODS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SHOP_GOODS)",
+      "trigger": "MetaAlias.SHOP_GOODS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SHOP_GOODS)",
+      "trigger": "MetaAlias.SHOP_GOODS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SHOP_GOODS,${1:Id})",
+      "trigger": "MetaAlias.SHOP_GOODS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SILK_BOOK)",
+      "trigger": "MetaAlias.SILK_BOOK    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SILK_BOOK)",
+      "trigger": "MetaAlias.SILK_BOOK     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SILK_BOOK,${1:Id})",
+      "trigger": "MetaAlias.SILK_BOOK     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SILK_BOOK)",
+      "trigger": "MetaAlias.SILK_BOOK     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SILK_BOOK)",
+      "trigger": "MetaAlias.SILK_BOOK     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SILK_BOOK,${1:Id})",
+      "trigger": "MetaAlias.SILK_BOOK     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SILK_BOOK_PIECE)",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SILK_BOOK_PIECE)",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SILK_BOOK_PIECE,${1:Id})",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SILK_BOOK_PIECE)",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SILK_BOOK_PIECE)",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SILK_BOOK_PIECE,${1:Id})",
+      "trigger": "MetaAlias.SILK_BOOK_PIECE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SKILL_VIEWS)",
+      "trigger": "MetaAlias.SKILL_VIEWS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SKILL_VIEWS)",
+      "trigger": "MetaAlias.SKILL_VIEWS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SKILL_VIEWS,${1:Id})",
+      "trigger": "MetaAlias.SKILL_VIEWS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SKILL_VIEWS)",
+      "trigger": "MetaAlias.SKILL_VIEWS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SKILL_VIEWS)",
+      "trigger": "MetaAlias.SKILL_VIEWS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SKILL_VIEWS,${1:Id})",
+      "trigger": "MetaAlias.SKILL_VIEWS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SKILLS)",
+      "trigger": "MetaAlias.SKILLS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SKILLS)",
+      "trigger": "MetaAlias.SKILLS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SKILLS,${1:Id})",
+      "trigger": "MetaAlias.SKILLS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SKILLS)",
+      "trigger": "MetaAlias.SKILLS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SKILLS)",
+      "trigger": "MetaAlias.SKILLS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SKILLS,${1:Id})",
+      "trigger": "MetaAlias.SKILLS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SOUNDS)",
+      "trigger": "MetaAlias.SOUNDS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SOUNDS)",
+      "trigger": "MetaAlias.SOUNDS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SOUNDS,${1:Id})",
+      "trigger": "MetaAlias.SOUNDS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SOUNDS)",
+      "trigger": "MetaAlias.SOUNDS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SOUNDS)",
+      "trigger": "MetaAlias.SOUNDS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SOUNDS,${1:Id})",
+      "trigger": "MetaAlias.SOUNDS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.STAGE)",
+      "trigger": "MetaAlias.STAGE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.STAGE)",
+      "trigger": "MetaAlias.STAGE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.STAGE,${1:Id})",
+      "trigger": "MetaAlias.STAGE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.STAGE)",
+      "trigger": "MetaAlias.STAGE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.STAGE)",
+      "trigger": "MetaAlias.STAGE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.STAGE,${1:Id})",
+      "trigger": "MetaAlias.STAGE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.STARUP)",
+      "trigger": "MetaAlias.STARUP    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.STARUP)",
+      "trigger": "MetaAlias.STARUP     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.STARUP,${1:Id})",
+      "trigger": "MetaAlias.STARUP     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.STARUP)",
+      "trigger": "MetaAlias.STARUP     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.STARUP)",
+      "trigger": "MetaAlias.STARUP     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.STARUP,${1:Id})",
+      "trigger": "MetaAlias.STARUP     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SUB_EFFECT_VIEWS)",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SUB_EFFECT_VIEWS)",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SUB_EFFECT_VIEWS,${1:Id})",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SUB_EFFECT_VIEWS)",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SUB_EFFECT_VIEWS)",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SUB_EFFECT_VIEWS,${1:Id})",
+      "trigger": "MetaAlias.SUB_EFFECT_VIEWS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.SUB_EFFECTS)",
+      "trigger": "MetaAlias.SUB_EFFECTS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.SUB_EFFECTS)",
+      "trigger": "MetaAlias.SUB_EFFECTS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.SUB_EFFECTS,${1:Id})",
+      "trigger": "MetaAlias.SUB_EFFECTS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.SUB_EFFECTS)",
+      "trigger": "MetaAlias.SUB_EFFECTS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.SUB_EFFECTS)",
+      "trigger": "MetaAlias.SUB_EFFECTS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.SUB_EFFECTS,${1:Id})",
+      "trigger": "MetaAlias.SUB_EFFECTS     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.TREASURE)",
+      "trigger": "MetaAlias.TREASURE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.TREASURE)",
+      "trigger": "MetaAlias.TREASURE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.TREASURE,${1:Id})",
+      "trigger": "MetaAlias.TREASURE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.TREASURE)",
+      "trigger": "MetaAlias.TREASURE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.TREASURE)",
+      "trigger": "MetaAlias.TREASURE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.TREASURE,${1:Id})",
+      "trigger": "MetaAlias.TREASURE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.UI_EFFECT)",
+      "trigger": "MetaAlias.UI_EFFECT    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.UI_EFFECT)",
+      "trigger": "MetaAlias.UI_EFFECT     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.UI_EFFECT,${1:Id})",
+      "trigger": "MetaAlias.UI_EFFECT     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.UI_EFFECT)",
+      "trigger": "MetaAlias.UI_EFFECT     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.UI_EFFECT)",
+      "trigger": "MetaAlias.UI_EFFECT     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.UI_EFFECT,${1:Id})",
+      "trigger": "MetaAlias.UI_EFFECT     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.VALUE)",
+      "trigger": "MetaAlias.VALUE    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.VALUE)",
+      "trigger": "MetaAlias.VALUE     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.VALUE,${1:Id})",
+      "trigger": "MetaAlias.VALUE     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.VALUE)",
+      "trigger": "MetaAlias.VALUE     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.VALUE)",
+      "trigger": "MetaAlias.VALUE     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.VALUE,${1:Id})",
+      "trigger": "MetaAlias.VALUE     [app.ById]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllData(MetaAlias.WORLD_BOSS)",
+      "trigger": "MetaAlias.WORLD_BOSS    [App.ALL]"
+    },
+    {
+      "contents": "App.getInstance():QueryAllDataToKV(MetaAlias.WORLD_BOSS)",
+      "trigger": "MetaAlias.WORLD_BOSS     [App.ALL_KV]"
+    },
+    {
+      "contents": "App.getInstance():QueryDataById(MetaAlias.WORLD_BOSS,${1:Id})",
+      "trigger": "MetaAlias.WORLD_BOSS     [App.ById]"
+    },
+    {
+      "contents": "app:QueryAllData(MetaAlias.WORLD_BOSS)",
+      "trigger": "MetaAlias.WORLD_BOSS     [app.ALL]"
+    },
+    {
+      "contents": "app:QueryAllDataToKV(MetaAlias.WORLD_BOSS)",
+      "trigger": "MetaAlias.WORLD_BOSS     [app.ALL_KV]"
+    },
+    {
+      "contents": "app:QueryDataById(MetaAlias.WORLD_BOSS,${1:Id})",
+      "trigger": "MetaAlias.WORLD_BOSS     [app.ById]"
+    }
+  ]
+}

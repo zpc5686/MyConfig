@@ -1,0 +1,29 @@
+{
+  "scope":"source.lua",
+  "completions":[
+    {
+      "contents":"Public.AppendPadTop(${1:prefabPath}, ${2:parent}, ${3:title}, ${3:currencyTab})",
+      "trigger":"Public.AppendPadTop     [附加PadTop组件]",
+    },
+    {
+      "contents":"Public.ShowError(${1:dictId}, ${2:...})",
+      "trigger":"Public.ShowError     [显示错误信息]",
+    },
+    {
+      "contents":"Public.ShowMsgBoxOnly(${1:dictId}, ${2:...})",
+      "trigger":"Public.ShowMsgBoxOnly     [无按钮消息框]",
+    },
+    {
+      "contents":"Public.ShowMsgBoxOne(${1:dictId}, ${2:...})",
+      "trigger":"Public.ShowMsgBoxOne     [一按钮消息框]",
+    },
+    {
+      "contents":"Public.ShowMsgBoxNormal(${1:dictId}, ${2:sender}, ${3:callback}, ${4:param}, ${5:...})",
+      "trigger":"Public.ShowMsgBoxNormal     [二按钮消息框，带回调]",
+    },
+    {
+      "contents":" local data = {}\ndata.type = MsgBoxType.ONE_BTN              -- 弹框类型，不填无按钮\ndata.sender = self                          --调用者self 不填没有回调\ndata.callback= self.OnConfirm               --回调方法，不填没有回调\ndata.dictTitle = 2002                       --标题的字典号 ，不填不显示标题\n--data.dictMsg=dictId                        --消息内容字典号 \ndata.dictBtn1 = 100057                      --按钮1字典号 ，不填默认是确认\ndata.dictBtn2 = 100058                      --按钮2字典号 ，不填默认是取消\ndata.param    = \"param\"                     --可传递参数，任意类型\nPublic.ShowMsgBox(${1:dataTab}, ${2:sender})",
+      "trigger":"Public.ShowMsgBox     [完整信息框]",
+    },
+    ]
+}

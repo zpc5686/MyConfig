@@ -1,0 +1,1363 @@
+'.source.lua':
+    '+=':
+        'prefix': '+='
+        'body': ' ${1:var} = ${1:var} + ${2:1} '
+    '-=':
+        'prefix': '-='
+        'body': ' ${1:var} = ${1:var} - ${2:1} '
+    '@=':
+        'prefix': '@='
+        'body': ' self.${1:var} = ${1:var} or ${2:1} '
+    'assert':
+        'prefix': 'assert'
+        'body': 'assert( ${1:v}, ${2:message} )'
+    'else':
+        'prefix': 'else'
+        'body': 'else\n    ${2:--do}\n${3:end}'
+    'elseif':
+        'prefix': 'elseif'
+        'body': 'elseif ${1:cond} then\n    ${2:--do}\n${3:end}'
+    'error':
+        'prefix': 'error'
+        'body': 'error( ${1:message} )'
+    'fori':
+        'prefix': 'fori'
+        'body': 'for ${1:i}, ${2:v} in ipairs( ${3:table_name} ) do\n	${0:print( i, v )}\nend'
+    'for':
+        'prefix': 'for'
+        'body': 'for ${1:i} = ${2:1}, ${3:10} do\n	${0:print(i)}\nend'
+    'forp':
+        'prefix': 'forp'
+        'body': 'for ${1:k}, ${2:v} in pairs( ${3:table_name} ) do\n	${0:print(k,v)}\nend'
+    'def':
+        'prefix': 'def'
+        'body': 'function ${1:function_name}( ${2:...} )\n	${0:-- body}\nend'
+    'fun':
+        'prefix': 'fun'
+        'body': 'function ${1:function_name}( ${2:...} )\n	${0:-- body}\nend'
+    'funcl':
+        'prefix': 'funcl'
+        'body': 'function( ${1:...} )\n	${0:--todo}\nend'
+    'lfunc':
+        'prefix': 'lfunc'
+        'body': 'local function( ${1:...} )\n	${0:--todo}\nend'
+    'ipairs':
+        'prefix': 'ipairs'
+        'body': 'ipairs( ${1:t} )'
+    'lreq':
+        'prefix': 'lreq'
+        'body': 'local ${1:library} = require( "${2:name}" )'
+    'local':
+        'prefix': 'local'
+        'body': 'local ${1:x} = ${0:1}'
+    'math.abs':
+        'prefix': 'math.abs'
+        'body': 'math.abs( ${1:x} )'
+    'math.acos':
+        'prefix': 'math.acos'
+        'body': 'math.acos( ${1:x} )'
+    'math.asin':
+        'prefix': 'math.asin'
+        'body': 'math.asin( ${1:x} )'
+    'math.atan':
+        'prefix': 'math.atan'
+        'body': 'math.atan( ${1:x} )'
+    'math.atan2':
+        'prefix': 'math.atan2'
+        'body': 'math.atan2( ${1:y}, ${2:x} )'
+    'math.ceil':
+        'prefix': 'math.ceil'
+        'body': 'math.ceil( ${1:x} )'
+    'math.cos':
+        'prefix': 'math.cos'
+        'body': 'math.cos( ${1:x} )'
+    'math.cosh':
+        'prefix': 'math.cosh'
+        'body': 'math.cosh( ${1:x} )'
+    'math.deg':
+        'prefix': 'math.deg'
+        'body': 'math.deg( ${1:x} )'
+    'math.exp':
+        'prefix': 'math.exp'
+        'body': ' math.exp(${1:x} )'
+    'math.floor':
+        'prefix': 'math.floor'
+        'body': 'math.floor( ${1:x} )'
+    'math.fmod':
+        'prefix': 'math.fmod'
+        'body': 'math.fmod( ${1:x}, ${2:y} )'
+    'math.frexp':
+        'prefix': 'math.frexp'
+        'body': 'math.frexp( ${1:x} )'
+    'math.huge':
+        'prefix': 'math.huge'
+        'body': 'math.huge'
+    'math.ldexp':
+        'prefix': 'math.ldexp'
+        'body': 'math.ldexp( ${1:m}, ${2:e} )'
+    'math.log':
+        'prefix': 'math.log'
+        'body': 'math.log( ${1:x} )'
+    'math.log10':
+        'prefix': 'math.log10'
+        'body': 'math.log10( ${1:x} )'
+    'math.max':
+        'prefix': 'math.max'
+        'body': 'math.max( ${1:x}, ${2:...} )'
+    'math.min':
+        'prefix': 'math.min'
+        'body': 'math.min( ${1:x}, ${2:...} )'
+    'math.modf':
+        'prefix': 'math.modf'
+        'body': 'math.modf( ${1:x} )'
+    'math.pi':
+        'prefix': 'math.pi'
+        'body': 'math.pi'
+    'math.pow':
+        'prefix': 'math.pow'
+        'body': 'math.pow( ${1:x}, ${2:y} )'
+    'math.rad':
+        'prefix': 'math.rad'
+        'body': 'math.rad( ${1:x} )'
+    'math.random':
+        'prefix': 'math.random'
+        'body': 'math.random( ${1:m}, ${2:n} )'
+    'math.randomseed':
+        'prefix': 'math.randomseed'
+        'body': 'math.randomseed( ${1:x} )'
+    'math.sin':
+        'prefix': 'math.sin'
+        'body': 'math.sin( ${1:x} )'
+    'math.sinh':
+        'prefix': 'math.sinh'
+        'body': 'math.sinh( ${1:x} )'
+    'math.sqrt':
+        'prefix': 'math.sqrt'
+        'body': 'math.sqrt( ${1:x} )'
+    'math.tan':
+        'prefix': 'math.tan'
+        'body': 'math.tan( ${1:x} )'
+    'math.tanh':
+        'prefix': 'math.tanh'
+        'body': 'math.tanh( ${1:x} )'
+    'module':
+        'prefix': 'module'
+        'body': 'module( ${1:name}, ${2:...} )'
+    'next':
+        'prefix': 'next'
+        'body': 'next( ${1:table}, ${2:index} )'
+    'os.clock':
+        'prefix': 'os.clock'
+        'body': 'os.clock()'
+    'os.date':
+        'prefix': 'os.date'
+        'body': 'os.date( ${1:format}, ${2:time} )'
+    'os.difftime':
+        'prefix': 'os.difftime'
+        'body': 'os.difftime( ${1:t2}, ${2:t1} )'
+    'os.execute':
+        'prefix': 'os.execute'
+        'body': 'os.execute( ${1:command} )'
+    'os.exit':
+        'prefix': 'os.exit'
+        'body': 'os.exit( ${1:code} )'
+    'os.getenv':
+        'prefix': 'os.getenv'
+        'body': 'os.getenv( ${1:varname} )'
+    'os.remove':
+        'prefix': 'os.remove'
+        'body': 'os.remove( ${1:filename} )'
+    'os.rename':
+        'prefix': 'os.rename'
+        'body': 'os.rename( ${1:oldname}, ${2:newname} )'
+    'os.setlocale':
+        'prefix': 'os.setlocale'
+        'body': 'os.setlocale( ${1:locale}, ${2:category} )'
+    'os.time':
+        'prefix': 'os.time'
+        'body': 'os.time( ${1:table} )'
+    'os.tmpname':
+        'prefix': 'os.tmpname'
+        'body': 'os.tmpname()'
+    'pairs':
+        'prefix': 'pairs'
+        'body': 'pairs( ${1:t} )'
+    'print':
+        'prefix': 'print'
+        'body': 'print( ${1:message} )'
+    'string.byte':
+        'prefix': 'string.byte'
+        'body': 'string.byte( ${1:s}, ${2:i}, ${3:j} )'
+    'string.char':
+        'prefix': 'string.char'
+        'body': 'string.char( ${1:...} )'
+    'string.dump':
+        'prefix': 'string.dump'
+        'body': 'string.dump( ${1:function} )'
+    'string.find':
+        'prefix': 'string.find'
+        'body': 'string.find( ${1:s}, ${2:pattern}, ${3:init}, ${4:plain} )'
+    'string.format':
+        'prefix': 'string.format'
+        'body': 'string.format( ${1:formatstring}, ${2:...} )'
+    'string.gmatch':
+        'prefix': 'string.gmatch'
+        'body': 'string.gmatch( ${1:s}, ${2:pattern} )'
+    'string.gsub':
+        'prefix': 'string.gsub'
+        'body': 'string.gsub( ${1:s}, ${2:pattern}, ${3:repl}, ${4:n} )'
+    'string.len':
+        'prefix': 'string.len'
+        'body': 'string.len( ${1:s} )'
+    'string.lower':
+        'prefix': 'string.lower'
+        'body': 'string.lower( ${1:s} )'
+    'string.match':
+        'prefix': 'string.match'
+        'body': 'string.match( ${1:s}, ${2:pattern}, ${3:init} )'
+    'string.rep':
+        'prefix': 'string.rep'
+        'body': 'string.rep( ${1:s}, ${2:n} )'
+    'string.reverse':
+        'prefix': 'string.reverse'
+        'body': 'string.reverse( ${1:s} )'
+    'string.sub':
+        'prefix': 'string.sub'
+        'body': 'string.sub( ${1:s}, ${2:i}, ${3:j} )'
+    'string.upper':
+        'prefix': 'string.upper'
+        'body': 'string.upper( ${1:s} )'
+    'table.concat':
+        'prefix': 'table.concat'
+        'body': 'table.concat( ${1:tablename}, ${2:", "}, ${3:start_index}, ${4:end_index} )'
+    'table.insert':
+        'prefix': 'table.insert'
+        'body': 'table.insert( ${1:table}, ${2:pos}, ${3:value} )'
+    'table.maxn':
+        'prefix': 'table.maxn'
+        'body': 'table.maxn( ${1:table} )'
+    'table.pack':
+        'prefix': 'table.pack'
+        'body': 'table.pack( ${1:...} )'
+    'table.remove':
+        'prefix': 'table.remove'
+        'body': 'table.remove( ${1:table}, ${2:pos} )'
+    'table.sort':
+        'prefix': 'table.sort'
+        'body': 'table.sort( ${1:tablename}, ${2:sortfunction} )'
+    'table.unpack':
+        'prefix': 'table.unpack'
+        'body': 'table.unpack( ${1:list}, ${2:i}, ${3:j} )'
+    'tonumber':
+        'prefix': 'tonumber'
+        'body': 'tonumber( ${1:e}, ${2:base} )'
+    'tostring':
+        'prefix': 'tostring'
+        'body': 'tostring( ${1:e} )'
+    'type':
+        'prefix': 'type'
+        'body': 'type( ${1:v} )'
+    '定义一个localapp"':
+        'prefix': 'applocal'
+        'body': 'localapp=App.getInstance()'
+    '显示一个Moto(完整)"':
+        'prefix': 'App.showMoto'
+        'body': 'App.getInstance():showMoto(${1:prefabPath},${2:parent},${3:callback})'
+    '显示一个Moto(局部)"':
+        'prefix': 'app:showMoto'
+        'body': 'app:showMoto(${1:prefabPath},${2:parent},${3:callback})'
+    '隐藏一个Moto(完整)"':
+        'prefix': 'App.hideMoto'
+        'body': 'App.getInstance():hideMoto(${1:prefabPath})'
+    '隐藏一个Moto(局部)"':
+        'prefix': 'app:hideMoto'
+        'body': 'app:hideMoto(${1:prefabPath})'
+    'createPart(完整)"':
+        'prefix': 'App.createPart'
+        'body': 'App.getInstance():createPart(${1:proto},${2:transParent},${3:number})'
+    'createPart(局部)"':
+        'prefix': 'app:createPart'
+        'body': 'app:createPart(${1:proto},${2:transParent},${3:number})'
+    '显示一个公共弹出框(完整)"':
+        'prefix': 'App.ShowMsgBox'
+        'body': 'App.getInstance():ShowMsgBox(${1:info},${2:sender},${3:callback},${4:param})'
+    '显示一个公共弹出框(局部)"':
+        'prefix': 'app:ShowMsgBox'
+        'body': 'app:ShowMsgBox(${1:proto},${2:transParent},${3:number},${4:param})'
+    '加载某图集上的某图片(完整)"':
+        'prefix': 'App.LoadSprite'
+        'body': 'App.getInstance():LoadSprite(${1:atlasName},${2:spriteName})'
+    '加载某图集上的某图片(局部)"':
+        'prefix': 'app:LoadSprite'
+        'body': 'app:LoadSprite(${1:atlasName},${2:spriteName})'
+    '根据IconId为Image加载图片(完整)"':
+        'prefix': 'App.SetIconById'
+        'body': 'App.getInstance():SetIconById(${1:imgControl},${2:IconId})'
+    '根据IconId为Image加载图片(局部)"':
+        'prefix': 'app:SetIconById'
+        'body': 'app:SetIconById(${1:imgControl},${2:IconId})'
+    '为TextFormate字符串(完整)"':
+        'prefix': 'App.SetFormatTextById'
+        'body': 'App.getInstance():SetFormatTextById(1:text},${2:dictId},${3:...})'
+    '为TextFormate字符串(局部)"':
+        'prefix': 'app:SetFormatTextById'
+        'body': 'app:SetFormatTextById(${1:text},${2:dictId},${3:...})'
+    '为Text设置字符串(完整)"':
+        'prefix': 'App.SetTextById'
+        'body': 'App.getInstance():SetTextById(1:text},${2:dictId})'
+    '为Text设置字符串(局部)"':
+        'prefix': 'app:SetTextById'
+        'body': 'app:SetTextById(${1:text},${2:dictId})'
+    '根据dictId获取字符串(完整)"':
+        'prefix': 'App.GetDictStringById'
+        'body': 'App.getInstance():GetDictStringById(${1:dictId})'
+    '根据dictId获取字符串(局部)"':
+        'prefix': 'app:GetDictStringById'
+        'body': 'app:GetDictStringById(${1:dictId})'
+    '获取Format字符串(完整)"':
+        'prefix': 'App.GetFormatDictStringById'
+        'body': 'App.getInstance():GetFormatDictStringById(${1:dictId},${2:...})'
+    '获取Format字符串(局部)"':
+        'prefix': 'app:GetFormatDictStringById'
+        'body': 'app:GetFormatDictStringById(${1:dictId},${2:...})'
+    '图片置灰(完整)"':
+        'prefix': 'App.SetImageGray'
+        'body': 'App.getInstance():SetImageGray(${1:image},${2:bool})'
+    '图片置灰(局部)"':
+        'prefix': 'app:SetImageGray'
+        'body': 'app:SetImageGray(${1:image},${2:bool})'
+    '根据表名和id查询配置表(完整)"':
+        'prefix': 'App.QueryDataById'
+        'body': 'App.getInstance():QueryDataById(${1:tabName},${2:id})'
+    '根据表名和id查询配置表(局部)"':
+        'prefix': 'app:QueryDataById'
+        'body': 'app:QueryDataById(${1:tabName},${2:id})'
+    '查询配置表(完整)"':
+        'prefix': 'App.QueryAllData'
+        'body': 'App.getInstance():QueryAllData(${1:tabName})'
+    '查询配置表(局部)"':
+        'prefix': 'app:QueryAllData'
+        'body': 'app:QueryAllData(${1:tabName})'
+    '查询配置表转kv(完整)"':
+        'prefix': 'App.QueryAllDataToKV'
+        'body': 'App.getInstance():QueryAllDataToKV(${1:tabName})'
+    '查询配置表转kv(局部)"':
+        'prefix': 'app:QueryAllDataToKV'
+        'body': 'app:QueryAllDataToKV(${1:tabName})'
+    '把luatable存DataBank(完整)"':
+        'prefix': 'App.DepositLuaTable'
+        'body': 'App.getInstance():DepositLuaTable(${1:key},${2:table})'
+    '把luatable存DataBank(局部)"':
+        'prefix': 'app:DepositLuaTable'
+        'body': 'app:DepositLuaTable(${1:key},${2:table})'
+    '从DataBank取回table(完整)"':
+        'prefix': 'App.WithdrawDict'
+        'body': 'App.getInstance():WithdrawDict(${1:key})'
+    '从DataBank取回table(局部)"':
+        'prefix': 'app:WithdrawDict'
+        'body': 'app:WithdrawDict(${1:key})'
+    '从DataBank取回table(局部)"':
+        'prefix': 'ABCDService.XXX'
+        'body': 'self:sendnotification(ABCDService.NAME,${1:data},ABCDService.XXX))'
+    '1级别日志",':
+        'prefix': 'logDebug'
+        'body': 'logDebug(${1:...})'
+    '2级别日志",':
+        'prefix': 'logInfo'
+        'body': 'logInfo(${1:...})'
+    '3级别日志",':
+        'prefix': 'logWarning'
+        'body': 'logWarning(${1:...})'
+    '4级别日志",':
+        'prefix': 'logError'
+        'body': 'logError(${1:...})'
+    '获取table长度",':
+        'prefix': 'table.getCount'
+        'body': 'table.getCount(${1:tab})'
+    'App.ALL"':
+        'prefix': 'Metadata.Actions'
+        'body': 'App.getInstance():QueryAllData(Metadata.Actions)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Actions'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Actions)'
+    'App.ById"':
+        'prefix': 'Metadata.Actions'
+        'body': 'App.getInstance():QueryDataById(Metadata.Actions,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Actions'
+        'body': 'app:QueryAllData(Metadata.Actions)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Actions'
+        'body': 'app:QueryAllDataToKV(Metadata.Actions)'
+    'app.ById"':
+        'prefix': 'Metadata.Actions'
+        'body': 'app:QueryDataById(Metadata.Actions,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Activation'
+        'body': 'App.getInstance():QueryAllData(Metadata.Activation)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Activation'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Activation)'
+    'App.ById"':
+        'prefix': 'Metadata.Activation'
+        'body': 'App.getInstance():QueryDataById(Metadata.Activation,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Activation'
+        'body': 'app:QueryAllData(Metadata.Activation)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Activation'
+        'body': 'app:QueryAllDataToKV(Metadata.Activation)'
+    'app.ById"':
+        'prefix': 'Metadata.Activation'
+        'body': 'app:QueryDataById(Metadata.Activation,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'App.getInstance():QueryAllData(Metadata.Actorattrs)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Actorattrs)'
+    'App.ById"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'App.getInstance():QueryDataById(Metadata.Actorattrs,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'app:QueryAllData(Metadata.Actorattrs)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'app:QueryAllDataToKV(Metadata.Actorattrs)'
+    'app.ById"':
+        'prefix': 'Metadata.Actorattrs'
+        'body': 'app:QueryDataById(Metadata.Actorattrs,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'App.getInstance():QueryAllData(Metadata.Actorlevel)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Actorlevel)'
+    'App.ById"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'App.getInstance():QueryDataById(Metadata.Actorlevel,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'app:QueryAllData(Metadata.Actorlevel)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'app:QueryAllDataToKV(Metadata.Actorlevel)'
+    'app.ById"':
+        'prefix': 'Metadata.Actorlevel'
+        'body': 'app:QueryDataById(Metadata.Actorlevel,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Actors'
+        'body': 'App.getInstance():QueryAllData(Metadata.Actors)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Actors'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Actors)'
+    'App.ById"':
+        'prefix': 'Metadata.Actors'
+        'body': 'App.getInstance():QueryDataById(Metadata.Actors,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Actors'
+        'body': 'app:QueryAllData(Metadata.Actors)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Actors'
+        'body': 'app:QueryAllDataToKV(Metadata.Actors)'
+    'app.ById"':
+        'prefix': 'Metadata.Actors'
+        'body': 'app:QueryDataById(Metadata.Actors,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Affix'
+        'body': 'App.getInstance():QueryAllData(Metadata.Affix)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Affix'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Affix)'
+    'App.ById"':
+        'prefix': 'Metadata.Affix'
+        'body': 'App.getInstance():QueryDataById(Metadata.Affix,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Affix'
+        'body': 'app:QueryAllData(Metadata.Affix)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Affix'
+        'body': 'app:QueryAllDataToKV(Metadata.Affix)'
+    'app.ById"':
+        'prefix': 'Metadata.Affix'
+        'body': 'app:QueryDataById(Metadata.Affix,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'App.getInstance():QueryAllData(Metadata.Aiskill)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Aiskill)'
+    'App.ById"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'App.getInstance():QueryDataById(Metadata.Aiskill,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'app:QueryAllData(Metadata.Aiskill)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'app:QueryAllDataToKV(Metadata.Aiskill)'
+    'app.ById"':
+        'prefix': 'Metadata.Aiskill'
+        'body': 'app:QueryDataById(Metadata.Aiskill,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Anims'
+        'body': 'App.getInstance():QueryAllData(Metadata.Anims)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Anims'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Anims)'
+    'App.ById"':
+        'prefix': 'Metadata.Anims'
+        'body': 'App.getInstance():QueryDataById(Metadata.Anims,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Anims'
+        'body': 'app:QueryAllData(Metadata.Anims)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Anims'
+        'body': 'app:QueryAllDataToKV(Metadata.Anims)'
+    'app.ById"':
+        'prefix': 'Metadata.Anims'
+        'body': 'app:QueryDataById(Metadata.Anims,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Arena'
+        'body': 'App.getInstance():QueryAllData(Metadata.Arena)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Arena'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Arena)'
+    'App.ById"':
+        'prefix': 'Metadata.Arena'
+        'body': 'App.getInstance():QueryDataById(Metadata.Arena,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Arena'
+        'body': 'app:QueryAllData(Metadata.Arena)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Arena'
+        'body': 'app:QueryAllDataToKV(Metadata.Arena)'
+    'app.ById"':
+        'prefix': 'Metadata.Arena'
+        'body': 'app:QueryDataById(Metadata.Arena,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'App.getInstance():QueryAllData(Metadata.Artifact)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Artifact)'
+    'App.ById"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'App.getInstance():QueryDataById(Metadata.Artifact,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'app:QueryAllData(Metadata.Artifact)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'app:QueryAllDataToKV(Metadata.Artifact)'
+    'app.ById"':
+        'prefix': 'Metadata.Artifact'
+        'body': 'app:QueryDataById(Metadata.Artifact,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'App.getInstance():QueryAllData(Metadata.Artifactadvance)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Artifactadvance)'
+    'App.ById"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'App.getInstance():QueryDataById(Metadata.Artifactadvance,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'app:QueryAllData(Metadata.Artifactadvance)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'app:QueryAllDataToKV(Metadata.Artifactadvance)'
+    'app.ById"':
+        'prefix': 'Metadata.Artifactadvance'
+        'body': 'app:QueryDataById(Metadata.Artifactadvance,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'App.getInstance():QueryAllData(Metadata.Artifactlevelup)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Artifactlevelup)'
+    'App.ById"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'App.getInstance():QueryDataById(Metadata.Artifactlevelup,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'app:QueryAllData(Metadata.Artifactlevelup)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'app:QueryAllDataToKV(Metadata.Artifactlevelup)'
+    'app.ById"':
+        'prefix': 'Metadata.Artifactlevelup'
+        'body': 'app:QueryDataById(Metadata.Artifactlevelup,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'App.getInstance():QueryAllData(Metadata.Bestrank)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Bestrank)'
+    'App.ById"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'App.getInstance():QueryDataById(Metadata.Bestrank,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'app:QueryAllData(Metadata.Bestrank)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'app:QueryAllDataToKV(Metadata.Bestrank)'
+    'app.ById"':
+        'prefix': 'Metadata.Bestrank'
+        'body': 'app:QueryDataById(Metadata.Bestrank,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'App.getInstance():QueryAllData(Metadata.Breakables)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Breakables)'
+    'App.ById"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'App.getInstance():QueryDataById(Metadata.Breakables,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'app:QueryAllData(Metadata.Breakables)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'app:QueryAllDataToKV(Metadata.Breakables)'
+    'app.ById"':
+        'prefix': 'Metadata.Breakables'
+        'body': 'app:QueryDataById(Metadata.Breakables,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'App.getInstance():QueryAllData(Metadata.Combatattr)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Combatattr)'
+    'App.ById"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'App.getInstance():QueryDataById(Metadata.Combatattr,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'app:QueryAllData(Metadata.Combatattr)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'app:QueryAllDataToKV(Metadata.Combatattr)'
+    'app.ById"':
+        'prefix': 'Metadata.Combatattr'
+        'body': 'app:QueryDataById(Metadata.Combatattr,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Condition'
+        'body': 'App.getInstance():QueryAllData(Metadata.Condition)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Condition'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Condition)'
+    'App.ById"':
+        'prefix': 'Metadata.Condition'
+        'body': 'App.getInstance():QueryDataById(Metadata.Condition,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Condition'
+        'body': 'app:QueryAllData(Metadata.Condition)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Condition'
+        'body': 'app:QueryAllDataToKV(Metadata.Condition)'
+    'app.ById"':
+        'prefix': 'Metadata.Condition'
+        'body': 'app:QueryDataById(Metadata.Condition,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Currency'
+        'body': 'App.getInstance():QueryAllData(Metadata.Currency)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Currency'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Currency)'
+    'App.ById"':
+        'prefix': 'Metadata.Currency'
+        'body': 'App.getInstance():QueryDataById(Metadata.Currency,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Currency'
+        'body': 'app:QueryAllData(Metadata.Currency)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Currency'
+        'body': 'app:QueryAllDataToKV(Metadata.Currency)'
+    'app.ById"':
+        'prefix': 'Metadata.Currency'
+        'body': 'app:QueryDataById(Metadata.Currency,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'App.getInstance():QueryAllData(Metadata.Decompose)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Decompose)'
+    'App.ById"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'App.getInstance():QueryDataById(Metadata.Decompose,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'app:QueryAllData(Metadata.Decompose)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'app:QueryAllDataToKV(Metadata.Decompose)'
+    'app.ById"':
+        'prefix': 'Metadata.Decompose'
+        'body': 'app:QueryDataById(Metadata.Decompose,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Drop'
+        'body': 'App.getInstance():QueryAllData(Metadata.Drop)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Drop'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Drop)'
+    'App.ById"':
+        'prefix': 'Metadata.Drop'
+        'body': 'App.getInstance():QueryDataById(Metadata.Drop,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Drop'
+        'body': 'app:QueryAllData(Metadata.Drop)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Drop'
+        'body': 'app:QueryAllDataToKV(Metadata.Drop)'
+    'app.ById"':
+        'prefix': 'Metadata.Drop'
+        'body': 'app:QueryDataById(Metadata.Drop,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Effects'
+        'body': 'App.getInstance():QueryAllData(Metadata.Effects)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Effects'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Effects)'
+    'App.ById"':
+        'prefix': 'Metadata.Effects'
+        'body': 'App.getInstance():QueryDataById(Metadata.Effects,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Effects'
+        'body': 'app:QueryAllData(Metadata.Effects)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Effects'
+        'body': 'app:QueryAllDataToKV(Metadata.Effects)'
+    'app.ById"':
+        'prefix': 'Metadata.Effects'
+        'body': 'app:QueryDataById(Metadata.Effects,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'App.getInstance():QueryAllData(Metadata.Enemies)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Enemies)'
+    'App.ById"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'App.getInstance():QueryDataById(Metadata.Enemies,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'app:QueryAllData(Metadata.Enemies)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'app:QueryAllDataToKV(Metadata.Enemies)'
+    'app.ById"':
+        'prefix': 'Metadata.Enemies'
+        'body': 'app:QueryDataById(Metadata.Enemies,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'App.getInstance():QueryAllData(Metadata.Enhance)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Enhance)'
+    'App.ById"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'App.getInstance():QueryDataById(Metadata.Enhance,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'app:QueryAllData(Metadata.Enhance)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'app:QueryAllDataToKV(Metadata.Enhance)'
+    'app.ById"':
+        'prefix': 'Metadata.Enhance'
+        'body': 'app:QueryDataById(Metadata.Enhance,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'App.getInstance():QueryAllData(Metadata.Equipment)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Equipment)'
+    'App.ById"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'App.getInstance():QueryDataById(Metadata.Equipment,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'app:QueryAllData(Metadata.Equipment)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'app:QueryAllDataToKV(Metadata.Equipment)'
+    'app.ById"':
+        'prefix': 'Metadata.Equipment'
+        'body': 'app:QueryDataById(Metadata.Equipment,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Eventconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Eventconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Eventconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'app:QueryAllData(Metadata.Eventconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Eventconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Eventconfig'
+        'body': 'app:QueryDataById(Metadata.Eventconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Eventtypeconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Eventtypeconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Eventtypeconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'app:QueryAllData(Metadata.Eventtypeconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Eventtypeconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Eventtypeconfig'
+        'body': 'app:QueryDataById(Metadata.Eventtypeconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Guanqiaconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Guanqiaconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Guanqiaconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'app:QueryAllData(Metadata.Guanqiaconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Guanqiaconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Guanqiaconfig'
+        'body': 'app:QueryDataById(Metadata.Guanqiaconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Icon'
+        'body': 'App.getInstance():QueryAllData(Metadata.Icon)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Icon'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Icon)'
+    'App.ById"':
+        'prefix': 'Metadata.Icon'
+        'body': 'App.getInstance():QueryDataById(Metadata.Icon,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Icon'
+        'body': 'app:QueryAllData(Metadata.Icon)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Icon'
+        'body': 'app:QueryAllDataToKV(Metadata.Icon)'
+    'app.ById"':
+        'prefix': 'Metadata.Icon'
+        'body': 'app:QueryDataById(Metadata.Icon,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Itemconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Itemconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Itemconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'app:QueryAllData(Metadata.Itemconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Itemconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Itemconfig'
+        'body': 'app:QueryDataById(Metadata.Itemconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Levels'
+        'body': 'App.getInstance():QueryAllData(Metadata.Levels)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Levels'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Levels)'
+    'App.ById"':
+        'prefix': 'Metadata.Levels'
+        'body': 'App.getInstance():QueryDataById(Metadata.Levels,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Levels'
+        'body': 'app:QueryAllData(Metadata.Levels)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Levels'
+        'body': 'app:QueryAllDataToKV(Metadata.Levels)'
+    'app.ById"':
+        'prefix': 'Metadata.Levels'
+        'body': 'app:QueryDataById(Metadata.Levels,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'App.getInstance():QueryAllData(Metadata.Masterlvl_index)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Masterlvl_index)'
+    'App.ById"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'App.getInstance():QueryDataById(Metadata.Masterlvl_index,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'app:QueryAllData(Metadata.Masterlvl_index)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'app:QueryAllDataToKV(Metadata.Masterlvl_index)'
+    'app.ById"':
+        'prefix': 'Metadata.Masterlvl_index'
+        'body': 'app:QueryDataById(Metadata.Masterlvl_index,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'App.getInstance():QueryAllData(Metadata.Missiles)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Missiles)'
+    'App.ById"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'App.getInstance():QueryDataById(Metadata.Missiles,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'app:QueryAllData(Metadata.Missiles)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'app:QueryAllDataToKV(Metadata.Missiles)'
+    'app.ById"':
+        'prefix': 'Metadata.Missiles'
+        'body': 'app:QueryDataById(Metadata.Missiles,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'App.getInstance():QueryAllData(Metadata.Mobaicons)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Mobaicons)'
+    'App.ById"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'App.getInstance():QueryDataById(Metadata.Mobaicons,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'app:QueryAllData(Metadata.Mobaicons)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'app:QueryAllDataToKV(Metadata.Mobaicons)'
+    'app.ById"':
+        'prefix': 'Metadata.Mobaicons'
+        'body': 'app:QueryDataById(Metadata.Mobaicons,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Mode'
+        'body': 'App.getInstance():QueryAllData(Metadata.Mode)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Mode'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Mode)'
+    'App.ById"':
+        'prefix': 'Metadata.Mode'
+        'body': 'App.getInstance():QueryDataById(Metadata.Mode,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Mode'
+        'body': 'app:QueryAllData(Metadata.Mode)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Mode'
+        'body': 'app:QueryAllDataToKV(Metadata.Mode)'
+    'app.ById"':
+        'prefix': 'Metadata.Mode'
+        'body': 'app:QueryDataById(Metadata.Mode,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'App.getInstance():QueryAllData(Metadata.Modifiers)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Modifiers)'
+    'App.ById"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'App.getInstance():QueryDataById(Metadata.Modifiers,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'app:QueryAllData(Metadata.Modifiers)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'app:QueryAllDataToKV(Metadata.Modifiers)'
+    'app.ById"':
+        'prefix': 'Metadata.Modifiers'
+        'body': 'app:QueryDataById(Metadata.Modifiers,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Monster'
+        'body': 'App.getInstance():QueryAllData(Metadata.Monster)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Monster'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Monster)'
+    'App.ById"':
+        'prefix': 'Metadata.Monster'
+        'body': 'App.getInstance():QueryDataById(Metadata.Monster,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Monster'
+        'body': 'app:QueryAllData(Metadata.Monster)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Monster'
+        'body': 'app:QueryAllDataToKV(Metadata.Monster)'
+    'app.ById"':
+        'prefix': 'Metadata.Monster'
+        'body': 'app:QueryDataById(Metadata.Monster,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Rank'
+        'body': 'App.getInstance():QueryAllData(Metadata.Rank)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Rank'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Rank)'
+    'App.ById"':
+        'prefix': 'Metadata.Rank'
+        'body': 'App.getInstance():QueryDataById(Metadata.Rank,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Rank'
+        'body': 'app:QueryAllData(Metadata.Rank)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Rank'
+        'body': 'app:QueryAllDataToKV(Metadata.Rank)'
+    'app.ById"':
+        'prefix': 'Metadata.Rank'
+        'body': 'app:QueryDataById(Metadata.Rank,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Rankconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Rankconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Rankconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'app:QueryAllData(Metadata.Rankconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Rankconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Rankconfig'
+        'body': 'app:QueryDataById(Metadata.Rankconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Refine'
+        'body': 'App.getInstance():QueryAllData(Metadata.Refine)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Refine'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Refine)'
+    'App.ById"':
+        'prefix': 'Metadata.Refine'
+        'body': 'App.getInstance():QueryDataById(Metadata.Refine,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Refine'
+        'body': 'app:QueryAllData(Metadata.Refine)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Refine'
+        'body': 'app:QueryAllDataToKV(Metadata.Refine)'
+    'app.ById"':
+        'prefix': 'Metadata.Refine'
+        'body': 'app:QueryDataById(Metadata.Refine,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Reward'
+        'body': 'App.getInstance():QueryAllData(Metadata.Reward)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Reward'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Reward)'
+    'App.ById"':
+        'prefix': 'Metadata.Reward'
+        'body': 'App.getInstance():QueryDataById(Metadata.Reward,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Reward'
+        'body': 'app:QueryAllData(Metadata.Reward)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Reward'
+        'body': 'app:QueryAllDataToKV(Metadata.Reward)'
+    'app.ById"':
+        'prefix': 'Metadata.Reward'
+        'body': 'app:QueryDataById(Metadata.Reward,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Robot'
+        'body': 'App.getInstance():QueryAllData(Metadata.Robot)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Robot'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Robot)'
+    'App.ById"':
+        'prefix': 'Metadata.Robot'
+        'body': 'App.getInstance():QueryDataById(Metadata.Robot,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Robot'
+        'body': 'app:QueryAllData(Metadata.Robot)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Robot'
+        'body': 'app:QueryAllDataToKV(Metadata.Robot)'
+    'app.ById"':
+        'prefix': 'Metadata.Robot'
+        'body': 'app:QueryDataById(Metadata.Robot,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'App.getInstance():QueryAllData(Metadata.Scenes)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Scenes)'
+    'App.ById"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'App.getInstance():QueryDataById(Metadata.Scenes,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'app:QueryAllData(Metadata.Scenes)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'app:QueryAllDataToKV(Metadata.Scenes)'
+    'app.ById"':
+        'prefix': 'Metadata.Scenes'
+        'body': 'app:QueryDataById(Metadata.Scenes,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'App.getInstance():QueryAllData(Metadata.Sfxs)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Sfxs)'
+    'App.ById"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'App.getInstance():QueryDataById(Metadata.Sfxs,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'app:QueryAllData(Metadata.Sfxs)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'app:QueryAllDataToKV(Metadata.Sfxs)'
+    'app.ById"':
+        'prefix': 'Metadata.Sfxs'
+        'body': 'app:QueryDataById(Metadata.Sfxs,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Shape'
+        'body': 'App.getInstance():QueryAllData(Metadata.Shape)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Shape'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Shape)'
+    'App.ById"':
+        'prefix': 'Metadata.Shape'
+        'body': 'App.getInstance():QueryDataById(Metadata.Shape,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Shape'
+        'body': 'app:QueryAllData(Metadata.Shape)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Shape'
+        'body': 'app:QueryAllDataToKV(Metadata.Shape)'
+    'app.ById"':
+        'prefix': 'Metadata.Shape'
+        'body': 'app:QueryDataById(Metadata.Shape,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Shopconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Shopconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Shopconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'app:QueryAllData(Metadata.Shopconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Shopconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Shopconfig'
+        'body': 'app:QueryDataById(Metadata.Shopconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Shopsetconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Shopsetconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Shopsetconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'app:QueryAllData(Metadata.Shopsetconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Shopsetconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Shopsetconfig'
+        'body': 'app:QueryDataById(Metadata.Shopsetconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'App.getInstance():QueryAllData(Metadata.Skill_minds)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Skill_minds)'
+    'App.ById"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'App.getInstance():QueryDataById(Metadata.Skill_minds,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'app:QueryAllData(Metadata.Skill_minds)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'app:QueryAllDataToKV(Metadata.Skill_minds)'
+    'app.ById"':
+        'prefix': 'Metadata.Skill_minds'
+        'body': 'app:QueryDataById(Metadata.Skill_minds,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Skills'
+        'body': 'App.getInstance():QueryAllData(Metadata.Skills)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Skills'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Skills)'
+    'App.ById"':
+        'prefix': 'Metadata.Skills'
+        'body': 'App.getInstance():QueryDataById(Metadata.Skills,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Skills'
+        'body': 'app:QueryAllData(Metadata.Skills)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Skills'
+        'body': 'app:QueryAllDataToKV(Metadata.Skills)'
+    'app.ById"':
+        'prefix': 'Metadata.Skills'
+        'body': 'app:QueryDataById(Metadata.Skills,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Sound'
+        'body': 'App.getInstance():QueryAllData(Metadata.Sound)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Sound'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Sound)'
+    'App.ById"':
+        'prefix': 'Metadata.Sound'
+        'body': 'App.getInstance():QueryDataById(Metadata.Sound,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Sound'
+        'body': 'app:QueryAllData(Metadata.Sound)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Sound'
+        'body': 'app:QueryAllDataToKV(Metadata.Sound)'
+    'app.ById"':
+        'prefix': 'Metadata.Sound'
+        'body': 'app:QueryDataById(Metadata.Sound,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Stage'
+        'body': 'App.getInstance():QueryAllData(Metadata.Stage)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Stage'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Stage)'
+    'App.ById"':
+        'prefix': 'Metadata.Stage'
+        'body': 'App.getInstance():QueryDataById(Metadata.Stage,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Stage'
+        'body': 'app:QueryAllData(Metadata.Stage)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Stage'
+        'body': 'app:QueryAllDataToKV(Metadata.Stage)'
+    'app.ById"':
+        'prefix': 'Metadata.Stage'
+        'body': 'app:QueryDataById(Metadata.Stage,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'App.getInstance():QueryAllData(Metadata.Stageconfig)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Stageconfig)'
+    'App.ById"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'App.getInstance():QueryDataById(Metadata.Stageconfig,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'app:QueryAllData(Metadata.Stageconfig)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'app:QueryAllDataToKV(Metadata.Stageconfig)'
+    'app.ById"':
+        'prefix': 'Metadata.Stageconfig'
+        'body': 'app:QueryDataById(Metadata.Stageconfig,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Traps'
+        'body': 'App.getInstance():QueryAllData(Metadata.Traps)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Traps'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Traps)'
+    'App.ById"':
+        'prefix': 'Metadata.Traps'
+        'body': 'App.getInstance():QueryDataById(Metadata.Traps,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Traps'
+        'body': 'app:QueryAllData(Metadata.Traps)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Traps'
+        'body': 'app:QueryAllDataToKV(Metadata.Traps)'
+    'app.ById"':
+        'prefix': 'Metadata.Traps'
+        'body': 'app:QueryDataById(Metadata.Traps,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Value'
+        'body': 'App.getInstance():QueryAllData(Metadata.Value)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Value'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Value)'
+    'App.ById"':
+        'prefix': 'Metadata.Value'
+        'body': 'App.getInstance():QueryDataById(Metadata.Value,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Value'
+        'body': 'app:QueryAllData(Metadata.Value)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Value'
+        'body': 'app:QueryAllDataToKV(Metadata.Value)'
+    'app.ById"':
+        'prefix': 'Metadata.Value'
+        'body': 'app:QueryDataById(Metadata.Value,${1:Id})'
+    'App.ALL"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'App.getInstance():QueryAllData(Metadata.Worlddrop)'
+    'App.ALL_KV"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'App.getInstance():QueryAllDataToKV(Metadata.Worlddrop)'
+    'App.ById"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'App.getInstance():QueryDataById(Metadata.Worlddrop,${1:Id})'
+    'app.ALL"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'app:QueryAllData(Metadata.Worlddrop)'
+    'app.ALL_KV"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'app:QueryAllDataToKV(Metadata.Worlddrop)'
+    'app.ById"':
+        'prefix': 'Metadata.Worlddrop'
+        'body': 'app:QueryDataById(Metadata.Worlddrop,${1:Id})'
+    'Moto的方法，隐藏自身",':
+        'prefix': 'self:hideMyself'
+        'body': 'self:hideMyself()'
+    'widgets",':
+        'prefix': 'widgets",'
+        'body': 'widgets'
+    'notification",':
+        'prefix': 'notification",'
+        'body': 'notification'
+    'Moto的方法，获取全部控件",':
+        'prefix': 'getwidgets()'
+        'body': 'localwidgets=self:getWidgets()'
+    'Append一个Moto到本Moto"':
+        'prefix': 'self:showMoto'
+        'body': 'self:showMoto(${1:prefabPath},${2:parent},${3:callback})'
+    '创建顶部公共Moto的模版"':
+        'prefix': 'self:appendMoto'
+        'body': 'self:appendMoto(MotoPath.PAD_TOP_INFO,${1:transParent},function()\nlocaltab={}\ntab.title=\"${2:title}\"\ntab.currency={${3:ids...}}\nself:sendNotification(GlobalNotifyName.PAD_TOP_INFO,tab,nil)\nend)'
+    'MVC方法，发送消息",':
+        'prefix': 'self:sendNotification'
+        'body': 'self:sendNotification(${1:XXXService.NAME},${2:data},${3:XXXService.XXX})'
+    'MVC方法，注册消息",':
+        'prefix': 'self:registNotifyHandler'
+        'body': 'self:registNotifyHandler(${1:XXXService.NAME},self.${2:callback})'
+    'PlayerData绑定字段",':
+        'prefix': 'PlayerData.bindSetter'
+        'body': 'PlayerData.${1:dataName}:bindSetter(\"${2:propertyName}\",self,self.${3:callbackFuncName})'
+    'PlayerData.userData:getCurrency",':
+        'prefix': 'PlayerData.userData:getCurrency",'
+        'body': 'PlayerData.userData:getCurrency(${1:currId})'
+    'Socket注册",':
+        'prefix': 'service.Socket.registerHandler'
+        'body': 'Socket.registerHandler(${1:servName},self.${2:callback},self,${3:returnPbType})'
