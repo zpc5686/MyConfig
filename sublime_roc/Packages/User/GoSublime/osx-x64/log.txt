@@ -1,0 +1,1478 @@
+
+** 2016-08-02 13:50:35.137617 **:
+MarGo: Missing required environment variables: GOPATH
+See the `Quirks` section of USAGE.md for info
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/gateserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/battleserver/battle"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/battleserver/battle"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/battleserver/battle"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/battleserver/battle"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/battleserver/bin"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/db"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+2016/08/11 05:18:41 MarGo: OOM.
+Memory limit: 1000m
+Memory usage: 1000m
+Number goroutines: 38
+------- begin stack trace ----
+
+goroutine 20 [running, locked to thread]:
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:28 +0x1a3
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x35
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc82001d000, 0x1000, 0x0, 0x0, 0xc8583c0000)
+	/Users/Roc/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc82001d000, 0x1000, 0x1000, 0xc8583d1b6b, 0x0, 0x0)
+	/Users/Roc/go/src/syscall/zsyscall_darwin_amd64.go:972 +0x5f
+syscall.Read(0x0, 0xc82001d000, 0x1000, 0x1000, 0x4f6c0, 0x0, 0x0)
+	/Users/Roc/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc82002e008, 0xc82001d000, 0x1000, 0x1000, 0x8897b, 0x0, 0x0)
+	/Users/Roc/go/src/os/file_unix.go:231 +0x75
+os.(*File).Read(0xc82002e008, 0xc82001d000, 0x1000, 0x1000, 0x8, 0x0, 0x0)
+	/Users/Roc/go/src/os/file.go:95 +0x8a
+bufio.(*Reader).fill(0xc820122240)
+	/Users/Roc/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820122240, 0x2d60a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/Roc/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820122240, 0xc82012210a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/Roc/go/src/bufio/bufio.go:406 +0xa9
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc820134a10, 0xc8201221e0, 0xc820134a00)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x44
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc820134a10, 0x710001)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x332
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0xbd7
+main.main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 18 [chan receive, 583 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc82002e180)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0x7b
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x88
+
+goroutine 19 [chan receive, 563 minutes]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x96
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x2b
+
+goroutine 21 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Roc/go/src/runtime/time.go:59 +0xf9
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc820134a10, 0xc82000f7a0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x33
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0xb7b
+
+goroutine 22 [chan receive, 2589 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc820134a10)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x94
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0xba0
+
+goroutine 35 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 36 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 37 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 38 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 39 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 42 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 43 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 44 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 45 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 46 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 47 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 48 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 49 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 50 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 51 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 52 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 53 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+goroutine 54 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc820134a10, 0xc8200ec050, 0xc8201221e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x81
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x301
+
+
+-------  end stack trace  ----
+Gocode pkg: "babeltime.com/logicserver"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/nads"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/nads"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/nads"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/battleserver/bin"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/logicserver/db"
+Gocode pkg: "babeltime.com/ncmc"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/db"
+Gocode pkg: "babeltime.com/ncmc"
+Gocode pkg: "babeltime.com/logicserver/db"
+Gocode pkg: "babeltime.com/ncmc"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/count/countimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/count/countimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/activeshop/activeshopimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/artifact/artifactimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/artifact/artifactimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+margo: 2016/09/07 15:24:09 broker.go:105: gocode_complete#mg9.autoken.fcde5810-d18b-4fe6-aafc-20de5d21cc39 PANIC: runtime error: slice bounds out of range
+goroutine 15 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc42377a780, 0xc42000aa10)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x411f80, 0xc4200100e0)
+	/Users/Roc/go/src/runtime/panic.go:458 +0x241
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42012a740, 0xc422c880b0, 0xaf, 0xb0, 0xc42313e000, 0x53, 0xffffffffffffffff, 0x1, 0x1, 0xc42313e000, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:292 +0xad9
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200a6c60, 0x0, 0x0, 0x0, 0xc42380a0d0, 0xd, 0xc42380a1a0, 0x1, 0x1, 0xc422c880b0, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc422ea8000, 0xc422c880b0, 0xaf, 0xb0, 0xc42313e000, 0x53, 0xffffffffffffffff, 0x0, 0x3ea820, 0xc420516ba0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc422ea8000, 0x4c1ad0, 0xc42377a780, 0xc42000aa10, 0x3)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000aa10, 0xc42377a780, 0x65eb20, 0xc422ea8000)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420140000, 0x1000, 0x19, 0x1, 0x5)
+	/Users/Roc/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420140000, 0x1000, 0x1000, 0x23, 0xd3ef40, 0x3ef660)
+	/Users/Roc/go/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420140000, 0x1000, 0x1000, 0xc42363c000, 0xd3ef40, 0xc420056401)
+	/Users/Roc/go/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002a008, 0xc420140000, 0x1000, 0x1000, 0xc420056400, 0x730960, 0x0)
+	/Users/Roc/go/src/os/file_unix.go:161 +0x6a
+os.(*File).Read(0xc42002a008, 0xc420140000, 0x1000, 0x1000, 0xe9c6, 0xc42010a118, 0x1)
+	/Users/Roc/go/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006a2a0)
+	/Users/Roc/go/src/bufio/bufio.go:97 +0x10b
+bufio.(*Reader).ReadSlice(0xc42006a2a0, 0x4a0a, 0xc42010a0c0, 0xc421787db0, 0xc4238b5a40, 0xc4238b58c8, 0x41b140)
+	/Users/Roc/go/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006a2a0, 0xc42010a00a, 0xc4238b5a40, 0x0, 0x0, 0x0, 0x0)
+	/Users/Roc/go/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000aa10, 0xc42010a0c0, 0xc42000aa00)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000aa10, 0x4c0001)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x764
+main.main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x164
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 20 [chan receive]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420126158)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x8a
+
+goroutine 49 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000aa10, 0xc420120050)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x886
+
+goroutine 8 [chan receive, 18776 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000aa10)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x734
+
+goroutine 9 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 10 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 11 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 42 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 43 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 44 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 45 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 46 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 47 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2016-09-07 15:24:09.371887 **:
+GsComplete: broker: gocode_complete#mg9.autoken.fcde5810-d18b-4fe6-aafc-20de5d21cc39 PANIC
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+margo: 2016/09/07 15:35:40 broker.go:105: gocode_complete#mg9.autoken.1611dd20-e200-4822-9c08-a09cdb6f2c5c PANIC: runtime error: slice bounds out of range
+goroutine 43 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc4236d31a0, 0xc42000aa10)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x411f80, 0xc4200100e0)
+	/Users/Roc/go/src/runtime/panic.go:458 +0x241
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42012a740, 0xc423478700, 0x657, 0x680, 0xc4237224e0, 0x51, 0xffffffffffffffff, 0x1, 0x1, 0xc4237224e0, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:292 +0xad9
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200a6c60, 0x0, 0x0, 0x0, 0xc423802540, 0xd, 0xc4238025c0, 0x1, 0x1, 0xc423478700, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc423854080, 0xc423478700, 0x657, 0x680, 0xc4237224e0, 0x51, 0xffffffffffffffff, 0x687b80, 0xc4200120c0, 0xc4200001c8)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc423854080, 0x4c1ad0, 0xc4236d31a0, 0xc42000aa10, 0x3)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000aa10, 0xc4236d31a0, 0x65eb20, 0xc423854080)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420140000, 0x1000, 0x19, 0x0, 0x2)
+	/Users/Roc/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420140000, 0x1000, 0x1000, 0x2b, 0xd3b620, 0x3ef660)
+	/Users/Roc/go/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420140000, 0x1000, 0x1000, 0x0, 0xd3b620, 0xc420345400)
+	/Users/Roc/go/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002a008, 0xc420140000, 0x1000, 0x1000, 0xc4238b57f8, 0x4024c, 0xc423802518)
+	/Users/Roc/go/src/os/file_unix.go:161 +0x6a
+os.(*File).Read(0xc42002a008, 0xc420140000, 0x1000, 0x1000, 0xe9c6, 0xc42010a118, 0x1)
+	/Users/Roc/go/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006a2a0)
+	/Users/Roc/go/src/bufio/bufio.go:97 +0x10b
+bufio.(*Reader).ReadSlice(0xc42006a2a0, 0x4a0a, 0xc42010a0c0, 0xc42342e8c0, 0xc4238b5a40, 0xc4238b58c8, 0x41b140)
+	/Users/Roc/go/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006a2a0, 0xc42010a00a, 0xc4238b5a40, 0x0, 0x0, 0x0, 0x0)
+	/Users/Roc/go/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000aa10, 0xc42010a0c0, 0xc42000aa00)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000aa10, 0x4c0001)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x764
+main.main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x164
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 20 [chan receive]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420126158)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x8a
+
+goroutine 49 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000aa10, 0xc420120050)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x886
+
+goroutine 8 [chan receive, 18787 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000aa10)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x734
+
+goroutine 9 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 10 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 11 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 40 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 41 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 42 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 44 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 45 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 46 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 47 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000aa10, 0xc420010600, 0xc42010a0c0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2016-09-07 15:35:40.177957 **:
+GsComplete: broker: gocode_complete#mg9.autoken.1611dd20-e200-4822-9c08-a09cdb6f2c5c PANIC
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/draw"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/treasure/treasureimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+margo: 2016/09/14 11:54:08 broker.go:105: gocode_complete#mg9.autoken.1975deb7-908c-41cd-ba90-cd4654a5028a PANIC: runtime error: slice bounds out of range
+goroutine 79 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc421b10a00, 0xc4200a4bd0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x411f80, 0xc42000e0c0)
+	/Users/Roc/go/src/runtime/panic.go:458 +0x241
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc420016940, 0xc421f8e480, 0x17b, 0x180, 0xc4217af490, 0x64, 0xffffffffffffffff, 0x1, 0x1, 0xc4217af490, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:292 +0xad9
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200dee70, 0x0, 0x0, 0x0, 0xc421484ba0, 0xd, 0xc421484be0, 0x1, 0x1, 0xc421f8e480, ...)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc421fb6580, 0xc421f8e480, 0x17b, 0x180, 0xc4217af490, 0x64, 0xffffffffffffffff, 0xc4214fbe80, 0x0, 0x0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc421fb6580, 0x4c1ad0, 0xc421b10a00, 0xc4200a4bd0, 0x3)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc4200a4bd0, 0xc421b10a00, 0x65eb20, 0xc421fb6580)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc42026e000, 0x1000, 0x19, 0x0, 0x5)
+	/Users/Roc/go/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc42026e000, 0x1000, 0x1000, 0x23, 0xc3ba00, 0x410280)
+	/Users/Roc/go/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc42026e000, 0x1000, 0x1000, 0x0, 0xc3ba00, 0xc420059000)
+	/Users/Roc/go/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002c008, 0xc42026e000, 0x1000, 0x1000, 0xc4202af7f8, 0x4024c, 0xc421484b38)
+	/Users/Roc/go/src/os/file_unix.go:161 +0x6a
+os.(*File).Read(0xc42002c008, 0xc42026e000, 0x1000, 0x1000, 0xe9c6, 0xc4200dc238, 0x1)
+	/Users/Roc/go/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc4200dc0c0)
+	/Users/Roc/go/src/bufio/bufio.go:97 +0x10b
+bufio.(*Reader).ReadSlice(0xc4200dc0c0, 0x4a0a, 0xc4200dc1e0, 0xc420013a40, 0xc4202afa40, 0xc4202af8c8, 0x41b140)
+	/Users/Roc/go/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc4200dc0c0, 0xc4200dc10a, 0xc4202afa40, 0x0, 0x0, 0x0, 0x0)
+	/Users/Roc/go/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc4200a4bd0, 0xc4200dc1e0, 0xc4200a4b00)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc4200a4bd0, 0x4c0001)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x764
+main.main()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 1 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420116140)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:176 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:180 +0x8a
+
+goroutine 10 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 11 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x164
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 34 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/Users/Roc/go/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc4200a4bd0, 0xc4200d67a0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x886
+
+goroutine 35 [chan receive, 2693 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc4200a4bd0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x734
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 75 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 76 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc4200a4bd0, 0xc420110100, 0xc4200dc1e0)
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/Roc/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2016-09-14 11:54:08.877263 **:
+GsComplete: broker: gocode_complete#mg9.autoken.1975deb7-908c-41cd-ba90-cd4654a5028a PANIC
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/treasure/treasureimpl"
+Gocode pkg: "babeltime.com/logicserver/module/equip/equipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/activityeat/activityeatimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/draw/drawimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/draw/drawimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/draw/drawimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/draw/drawimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode env: gocode.margoEnv{LibPath:"/Users/Roc/go/pkg/darwin_amd64:/Users/Roc/graverobberserver/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/Users/Roc/go", GOPATH:"/Users/Roc/graverobberserver", InstallSuffix:""}
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/silkbook/silkbookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/book/bookimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/copy/copyimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/battle/battleimpl"
+Gocode pkg: "babeltime.com/logicserver/module/errs"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/rebel/rebelimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/reward/rewardimpl"
+Gocode pkg: "babeltime.com/logicserver/module/active/activeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/restab"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/einvade/einvadeimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/gateserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "."
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/serviceproxy"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/shop/shopimpl"
+Gocode pkg: "babeltime.com/datatable"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/bag/bagimpl"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/serviceproxy"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/serviceproxy"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/serviceproxy"
+Gocode pkg: "babeltime.com/rpc"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver"
+Gocode pkg: "babeltime.com/battleserver"
+Gocode pkg: "babeltime.com/logicserver/bin"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+Gocode pkg: "babeltime.com/logicserver/module/public"
+Gocode pkg: "babeltime.com/logicserver/db"
+Gocode pkg: "babeltime.com/nads"
+Gocode pkg: "babeltime.com/logicserver/module/hero/heroimpl"
+Gocode pkg: "babeltime.com/logicserver/proto/go/pb"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "net/rpc"
+Gocode pkg: "."
+Gocode pkg: "net/rpc"
+Gocode pkg: "encoding/gob"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+
+** 2016-09-29 15:42:21.685867 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip"
+Gocode pkg: "babeltime.com/logicserver/module/vip/vipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip"
+Gocode pkg: "babeltime.com/logicserver/module/vip/vipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip/vipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/tactic/tacticimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip/vipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"
+Gocode pkg: "babeltime.com/logicserver/module/vip/vipimpl"
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/db/tables"
+
+** 2016-09-30 15:09:48.908987 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+Gocode pkg: "babeltime.com/logicserver/module/user/userimpl"
+Gocode pkg: "babeltime.com/logicserver/module/cmd/cmdimpl"

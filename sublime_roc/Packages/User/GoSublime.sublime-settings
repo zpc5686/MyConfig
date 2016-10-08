@@ -1,0 +1,6 @@
+{
+    "env": {
+        "GOPATH": "/Users/Roc/graverobberserver",
+        "GOROOT": "/Users/Roc/go"
+    }
+}
